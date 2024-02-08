@@ -1,0 +1,16 @@
+{
+"name": "daisypdal",
+"som": "seed",
+"audio": {
+    "channels": 2
+},
+"components": {
+    "knob1": {
+        "component": "AnalogControl",
+        "pin": 21
+    }
+},
+"aliases": {
+    "knob": "knob1"
+}   
+}
