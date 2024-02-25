@@ -8,9 +8,19 @@
     "knob1": {
         "component": "AnalogControl",
         "pin": 21
+    },
+    "knob2": {
+        "component": "AnalogControl",
+        "pin": 20
+    },
+    "knob3": {
+        "component": "AnalogControl",
+        "pin": 19
     }
 },
 "aliases": {
-    "knob": "knob1"
+    "knob": "knob1",
+    "knob2": "knob2",
+    "knob3": "knob3"
 }   
 }
