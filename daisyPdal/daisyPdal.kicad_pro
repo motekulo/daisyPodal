@@ -55,16 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "annular_width|132690000|73250000|3a397074-6661-4369-bb3b-492640fc9c5d|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|125725000|100120000|846b71af-f10d-4df2-a2da-de78db718725|00000000-0000-0000-0000-000000000000",
-        "silk_edge_clearance|107830000|40000000|f59b1535-d0f8-4800-bc2d-0cda160853ee|97dcc365-a92b-442d-ade7-1159d4dc3857",
-        "silk_edge_clearance|119070000|40000000|f59b1535-d0f8-4800-bc2d-0cda160853ee|02e44c16-cc15-4148-971e-005fa64938f8",
-        "silk_edge_clearance|133400000|40000000|f59b1535-d0f8-4800-bc2d-0cda160853ee|78712437-0f19-41bf-9a69-f17dfd127c67",
-        "silk_edge_clearance|142600000|40000000|f59b1535-d0f8-4800-bc2d-0cda160853ee|19280811-8807-4596-bb94-5100f3d644ff",
-        "silk_edge_clearance|154580000|40000000|f59b1535-d0f8-4800-bc2d-0cda160853ee|d669b18c-f6f7-4c2d-8c9f-f3b12b612b7a",
-        "silk_edge_clearance|165820000|40000000|f59b1535-d0f8-4800-bc2d-0cda160853ee|f432fc10-81ce-433b-9d91-b208d2a05a34"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
