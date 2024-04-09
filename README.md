@@ -1,11 +1,12 @@
 # daisyPodal
 
-The idea is to have a guitar pedal that will run patches prototyped on a Daisy Pod.
+The idea is to have a guitar pedal that will run patches prototyped on a Daisy Pod. I've started with making it through hole and accessible to build.
 
 
 ## Thanks
 
 For hardware thanks to work on the Dasiy Petal, the Terrarium and most of all [Keith Shepherd](https://github.com/bkshepherd) who really knows what he's doing :)
+
 For software thanks to Graham Wakefield and Gregory Taylor for [Generating Sound and Organizing Time](https://cycling74.com/books/go).
 
 ## Things to do - v0.1 to 0.2
@@ -21,6 +22,7 @@ For software thanks to Graham Wakefield and Gregory Taylor for [Generating Sound
 
 ## Roadmap
 Stereo outputs at some stage
+SMD version as well as through hole.
 
 ## About me
 I'm a musician/ academic not an engineer - https://researchers.mq.edu.au/en/persons/denis-crowdy, https://codemusic.studio
