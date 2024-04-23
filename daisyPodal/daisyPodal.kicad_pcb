@@ -82,9 +82,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "")
+      (outputdirectory "./")
     )
   )
 
@@ -303,7 +303,7 @@
       (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp d7cb6641-866e-487f-af5e-068bc9c6ef3a))
     (fp_circle (center 0 0) (end 1.75 0)
       (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp 87c88c18-d79c-4d53-bce9-1b33368394b6))
-    (pad "1" thru_hole roundrect (at 0 0) (size 3.5 3.5) (drill 1.55) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.071429)
+    (pad "1" thru_hole roundrect (at 0 0) (size 3.5 3.5) (drill 1.55) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.07142914286)
       (net 20 "GND") (pinfunction "Pin_1") (pintype "passive") (tstamp 68194369-4c43-45e2-90bb-26153568cddb))
     (model "${KICAD6_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.75sqmm_1x01_D1.25mm_OD3.5mm.wrl"
       (offset (xyz 0 0 0))
@@ -407,7 +407,7 @@
       (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp e2aab25b-ad90-4b88-b408-b89ea0421612))
     (fp_circle (center 0 0) (end 1.75 0)
       (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp 9a1be9ac-8d7d-4cf1-9f85-542340008472))
-    (pad "1" thru_hole roundrect (at 0 0) (size 3.5 3.5) (drill 1.55) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.071429)
+    (pad "1" thru_hole roundrect (at 0 0) (size 3.5 3.5) (drill 1.55) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.07142914286)
       (net 49 "Net-(D4-K)") (pinfunction "Pin_1") (pintype "passive") (tstamp 1c540a1b-f7c8-4d5c-8875-da290ccb52c1))
     (model "${KICAD6_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.75sqmm_1x01_D1.25mm_OD3.5mm.wrl"
       (offset (xyz 0 0 0))
@@ -721,7 +721,7 @@
       (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 2595f5e7-f822-47b7-a43a-fc314c1e55db))
     (fp_circle (center 0 0) (end 1.75 0)
       (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp b9fc2372-b0d1-4d62-a98a-e38e0b2a8941))
-    (pad "1" thru_hole roundrect (at 0 0) (size 3.5 3.5) (drill 1.55) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.071429)
+    (pad "1" thru_hole roundrect (at 0 0) (size 3.5 3.5) (drill 1.55) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.07142914286)
       (net 52 "Net-(J5-Pin_1)") (pinfunction "Pin_1") (pintype "passive") (tstamp ed5eaa1c-aa6e-45f0-8c87-f9446900eb36))
     (model "${KICAD6_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.75sqmm_1x01_D1.25mm_OD3.5mm.wrl"
       (offset (xyz 0 0 0))
@@ -1459,7 +1459,7 @@
       (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 0726c937-85cb-4603-94f4-da8a0839d99f))
     (fp_circle (center 0 0) (end 1.75 0)
       (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp c3d9ea1d-2060-46d7-b3b2-21c7e3bbdd08))
-    (pad "1" thru_hole roundrect (at 0 0) (size 3.5 3.5) (drill 1.55) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.071429)
+    (pad "1" thru_hole roundrect (at 0 0) (size 3.5 3.5) (drill 1.55) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.07142914286)
       (net 46 "Net-(J6-Pin_1)") (pinfunction "Pin_1") (pintype "passive") (tstamp 0196438a-fe02-465b-94cd-0948c474f6d9))
     (model "${KICAD6_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.75sqmm_1x01_D1.25mm_OD3.5mm.wrl"
       (offset (xyz 0 0 0))
@@ -1757,7 +1757,7 @@
       (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 0a5f2a9c-7d48-4994-8800-86602e6c113b))
     (fp_circle (center 0 0) (end 1.75 0)
       (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp acb5b957-a2d1-4b58-a91f-775f20faef31))
-    (pad "1" thru_hole roundrect (at 0 0) (size 3.5 3.5) (drill 1.55) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.071429)
+    (pad "1" thru_hole roundrect (at 0 0) (size 3.5 3.5) (drill 1.55) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.07142914286)
       (net 42 "Net-(J4-Pin_1)") (pinfunction "Pin_1") (pintype "passive") (tstamp 9a77fe88-0b4d-4666-a86b-4102f2103b39))
     (model "${KICAD6_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.75sqmm_1x01_D1.25mm_OD3.5mm.wrl"
       (offset (xyz 0 0 0))
@@ -2063,7 +2063,7 @@
       (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 1572f382-9301-4ee4-9d41-9a00737d2751))
     (fp_circle (center 0 0) (end 1.75 0)
       (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp dcb858d0-5681-4efd-afc9-3fb7d44ab578))
-    (pad "1" thru_hole roundrect (at 0 0) (size 3.5 3.5) (drill 1.55) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.071429)
+    (pad "1" thru_hole roundrect (at 0 0) (size 3.5 3.5) (drill 1.55) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.07142914286)
       (net 51 "Net-(J3-Pin_1)") (pinfunction "Pin_1") (pintype "passive") (tstamp 19ecbf87-5ee8-4c77-b2d4-73f7d2be89f2))
     (model "${KICAD6_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.75sqmm_1x01_D1.25mm_OD3.5mm.wrl"
       (offset (xyz 0 0 0))
