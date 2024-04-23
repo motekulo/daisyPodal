@@ -1,12 +1,10 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 48,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [
-      "GND"
-    ],
+    "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -66,11 +64,15 @@
       39,
       40
     ],
+<<<<<<< Updated upstream
     "visible_layers": "0021000_00000001",
+=======
+    "visible_layers": "0031000_00000000",
+>>>>>>> Stashed changes
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "daisyPdal.kicad_prl",
+    "filename": "daisyPodal.kicad_prl",
     "version": 3
   },
   "project": {
