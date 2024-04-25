@@ -1783,9 +1783,6 @@
   (junction (at 259.461 66.421) (diameter 0) (color 0 0 0 0)
     (uuid 05a5db41-e68b-4385-af87-74ff1dd06afa)
   )
-  (junction (at 71.755 51.435) (diameter 0) (color 0 0 0 0)
-    (uuid 0fe05018-df86-4d3b-8bbc-bea6788efe57)
-  )
   (junction (at 205.867 32.004) (diameter 0) (color 0 0 0 0)
     (uuid 163eddd5-382f-4bb7-9003-6cdbaef55171)
   )
@@ -1825,11 +1822,11 @@
   (junction (at 132.715 161.29) (diameter 0) (color 0 0 0 0)
     (uuid 91d2c72f-e5ab-42fe-989c-f99a8e2d9527)
   )
-  (junction (at 85.725 51.435) (diameter 0) (color 0 0 0 0)
-    (uuid 9e0a8ff9-e258-4297-88ba-eb7d23facb96)
-  )
   (junction (at 233.934 66.421) (diameter 0) (color 0 0 0 0)
     (uuid a48eb29e-b4c7-4808-b343-2f7f8799a64a)
+  )
+  (junction (at 111.125 53.975) (diameter 0) (color 0 0 0 0)
+    (uuid a8fd8676-7793-47b4-a119-0096ed5bdad9)
   )
   (junction (at 106.045 161.29) (diameter 0) (color 0 0 0 0)
     (uuid ae842485-b8c9-4238-8931-7c40ddb31978)
@@ -1837,8 +1834,8 @@
   (junction (at 74.295 161.29) (diameter 0) (color 0 0 0 0)
     (uuid afe5ef49-0c4a-47ee-bdf0-a6ace39b9ebe)
   )
-  (junction (at 111.125 53.975) (diameter 0) (color 0 0 0 0)
-    (uuid d5612417-6692-456c-9dd7-aeb2a6e30810)
+  (junction (at 85.725 51.435) (diameter 0) (color 0 0 0 0)
+    (uuid d7618075-7cf3-46fe-a2f7-6694edaab163)
   )
   (junction (at 43.815 182.88) (diameter 0) (color 0 0 0 0)
     (uuid e6460624-8dfe-494e-9cc2-fe3c0610e655)
@@ -1939,6 +1936,10 @@
     (stroke (width 0) (type default))
     (uuid 314171c1-9548-48b2-9ce5-9e87333fbddd)
   )
+  (wire (pts (xy 85.725 51.435) (xy 95.885 51.435))
+    (stroke (width 0) (type default))
+    (uuid 33793b46-72c8-4207-b893-62b8ae1fcf15)
+  )
   (wire (pts (xy 98.425 161.29) (xy 106.045 161.29))
     (stroke (width 0) (type default))
     (uuid 34eda7b7-9835-47ac-a8d5-efd8f217913e)
@@ -2035,10 +2036,6 @@
     (stroke (width 0) (type default))
     (uuid 68683867-0632-499e-88a8-22cc1842995c)
   )
-  (wire (pts (xy 85.725 51.435) (xy 71.755 51.435))
-    (stroke (width 0) (type default))
-    (uuid 68be215b-479f-4491-933c-dc41c45d6e78)
-  )
   (wire (pts (xy 61.595 161.29) (xy 61.595 171.45))
     (stroke (width 0) (type default))
     (uuid 6a798983-f48f-478e-8a8d-211322f0d331)
@@ -2119,6 +2116,10 @@
     (stroke (width 0) (type default))
     (uuid 93c086e3-ed0a-4275-b333-f15d8e61f674)
   )
+  (wire (pts (xy 85.725 59.055) (xy 85.725 51.435))
+    (stroke (width 0) (type default))
+    (uuid 97131112-17bd-4345-8a1a-8d27f268d79f)
+  )
   (wire (pts (xy 74.295 179.07) (xy 74.295 189.865))
     (stroke (width 0) (type default))
     (uuid 98674dd0-82c8-4c3b-b2ea-c57c8213965e)
@@ -2135,7 +2136,7 @@
     (stroke (width 0) (type default))
     (uuid 9d8b24c2-29a2-4763-9a63-9db7c486d51b)
   )
-  (wire (pts (xy 71.755 42.545) (xy 71.755 51.435))
+  (wire (pts (xy 71.755 42.545) (xy 71.755 57.785))
     (stroke (width 0) (type default))
     (uuid 9fe81056-6f51-4633-ab67-b350bd2024cc)
   )
@@ -2171,17 +2172,9 @@
     (stroke (width 0) (type default))
     (uuid b49d4948-1751-40dc-b5b6-45c8a7007441)
   )
-  (wire (pts (xy 71.755 51.435) (xy 71.755 57.785))
-    (stroke (width 0) (type default))
-    (uuid b717e6ec-572f-4837-910c-9638ee37d933)
-  )
   (wire (pts (xy 61.595 154.94) (xy 61.595 161.29))
     (stroke (width 0) (type default))
     (uuid b726323d-9503-4894-ac97-e0f5af14c41d)
-  )
-  (wire (pts (xy 85.725 59.055) (xy 85.725 51.435))
-    (stroke (width 0) (type default))
-    (uuid b72fb6f2-77f7-4719-80f3-83a7cb4937fa)
   )
   (wire (pts (xy 239.522 42.164) (xy 224.282 42.164))
     (stroke (width 0) (type default))
@@ -2207,10 +2200,6 @@
     (stroke (width 0) (type default))
     (uuid c8d76425-498e-481d-99c3-832bbcebd557)
   )
-  (wire (pts (xy 69.215 51.435) (xy 71.755 51.435))
-    (stroke (width 0) (type default))
-    (uuid ce254fb9-cdf6-4eb9-9b3b-6ed955b4fa86)
-  )
   (wire (pts (xy 85.725 66.675) (xy 85.725 73.025))
     (stroke (width 0) (type default))
     (uuid d36dff9e-3695-46a5-aac0-3c78e464e248)
@@ -2219,9 +2208,9 @@
     (stroke (width 0) (type default))
     (uuid d38fb83f-b7c0-437f-b4c9-c12b7c55921f)
   )
-  (wire (pts (xy 85.725 51.435) (xy 95.885 51.435))
+  (wire (pts (xy 69.215 51.435) (xy 85.725 51.435))
     (stroke (width 0) (type default))
-    (uuid d3e7fc12-cbc8-4794-a2f0-6b44126e0ca1)
+    (uuid d61ef00b-7053-46bd-847f-3476fc9120c9)
   )
   (wire (pts (xy 106.045 161.29) (xy 106.045 171.45))
     (stroke (width 0) (type default))
@@ -2416,7 +2405,7 @@
   (symbol (lib_id "power:GND") (at 265.43 68.961 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 01e9fbe6-6a42-4294-a869-04dbd9acc0c8)
-    (property "Reference" "#PWR030" (at 265.43 75.311 0)
+    (property "Reference" "#PWR028" (at 265.43 75.311 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 265.43 74.041 0)
@@ -2432,7 +2421,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -2441,7 +2430,7 @@
   (symbol (lib_id "Device:R_US") (at 215.011 126.619 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 060bf435-26ef-4cb3-b314-07de2fcc725d)
-    (property "Reference" "R8" (at 214.376 124.46 90)
+    (property "Reference" "R10" (at 214.376 124.46 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 217.805 124.46 90)
@@ -2458,7 +2447,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "R8") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -2467,7 +2456,7 @@
   (symbol (lib_id "Device:R_US") (at 215.011 146.939 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 08d2ab11-ee40-4384-87bf-fe99ecc5b9ec)
-    (property "Reference" "R10" (at 214.249 145.034 90)
+    (property "Reference" "R12" (at 214.249 145.034 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 217.678 144.907 90)
@@ -2484,7 +2473,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "R10") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -2521,7 +2510,7 @@
   (symbol (lib_id "Device:R_US") (at 248.412 34.544 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d676a03-14e0-4bd7-970f-0c8d46f5c5a4)
-    (property "Reference" "R13" (at 248.412 28.194 90)
+    (property "Reference" "R16" (at 248.412 28.194 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 248.412 30.734 90)
@@ -2538,7 +2527,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "R13") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -2627,13 +2616,13 @@
   (symbol (lib_id "Device:C") (at 202.057 32.004 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15ae08ab-010d-48db-a4e5-caf71be5a7ed)
-    (property "Reference" "C9" (at 202.057 24.384 90)
+    (property "Reference" "C10" (at 202.057 24.384 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1u" (at 202.057 26.924 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT" (at 205.867 31.0388 0)
+    (property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" (at 205.867 31.0388 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 202.057 32.004 0)
@@ -2644,7 +2633,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "C9") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -2653,7 +2642,7 @@
   (symbol (lib_id "Device:R_US") (at 215.011 131.699 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 17746029-43c5-4b4c-99a4-ffaf8933b94f)
-    (property "Reference" "R9" (at 214.249 129.794 90)
+    (property "Reference" "R11" (at 214.249 129.794 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 217.678 129.667 90)
@@ -2670,7 +2659,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "R9") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -2710,7 +2699,7 @@
     (property "Value" "1n" (at 89.535 64.135 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT" (at 86.6902 66.675 0)
+    (property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" (at 86.6902 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 85.725 62.865 0)
@@ -2752,44 +2741,6 @@
     )
   )
 
-  (symbol (lib_id "Amplifier_Operational:TL074") (at 126.746 25.019 0) (unit 4)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1fc5b500-f0bc-48af-a8fc-2adb74a6adbd)
-    (property "Reference" "U3" (at 126.746 14.478 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TL074" (at 126.746 17.018 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket" (at 125.476 22.479 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (at 128.016 19.939 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 24aad6c8-4a37-4f2e-8ae8-3af7775a9ea7))
-    (pin "3" (uuid acb6cac3-e0b0-46bb-919f-9a63aa19a1dc))
-    (pin "5" (uuid 850c8011-5af7-406d-b30e-18af017e1bf4))
-    (pin "4" (uuid e749b8cd-1608-45c8-a4a4-77d7e8c46f92))
-    (pin "11" (uuid c626e1d6-8ecf-4097-9503-ecc879643099))
-    (pin "12" (uuid 327016a8-60f5-4771-bed8-3377dcdd1c01))
-    (pin "9" (uuid 14931d60-74f8-48d6-9aa7-dcc3a6335a17))
-    (pin "6" (uuid be7cdfe6-2a83-4a7a-b023-fcc197596b70))
-    (pin "7" (uuid af72ce5c-f7f4-49b7-b0bf-959562591b79))
-    (pin "13" (uuid 7fd970b6-9844-4dd1-b8ed-e36eaefad6ee))
-    (pin "14" (uuid 6d575e8e-fb2b-4137-b6ed-f69f23aa4455))
-    (pin "10" (uuid 39c465e2-9b15-410f-8ac7-7a71e9de734d))
-    (pin "8" (uuid 47ed8728-2237-4607-b10b-cf093cb5581c))
-    (pin "1" (uuid 4a29bf64-3870-4325-898e-205b474ca3eb))
-    (instances
-      (project "daisyPodal"
-        (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "U3") (unit 4)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 85.725 73.025 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20ea3e7d-5b51-4af6-98c0-306a08c03d2b)
@@ -2818,7 +2769,7 @@
   (symbol (lib_id "power:GND") (at 214.122 41.783 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 231a2e48-5aee-41d4-9096-d9e39f298a91)
-    (property "Reference" "#PWR023" (at 214.122 48.133 0)
+    (property "Reference" "#PWR025" (at 214.122 48.133 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 214.122 46.863 0)
@@ -2834,7 +2785,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -2893,7 +2844,7 @@
   (symbol (lib_id "Device:R_US") (at 208.534 56.388 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 266131e6-21f0-47e7-98a5-6d2d621daa42)
-    (property "Reference" "R15" (at 211.074 55.118 0)
+    (property "Reference" "R5" (at 211.074 55.118 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 211.074 57.658 0)
@@ -2910,7 +2861,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "R15") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -2925,7 +2876,7 @@
     (property "Value" "100n" (at 109.855 176.53 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT" (at 105.0798 171.45 0)
+    (property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" (at 105.0798 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 106.045 175.26 0)
@@ -2945,7 +2896,7 @@
   (symbol (lib_id "Connector_Audio:AudioJack2") (at 270.51 66.421 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2af003bf-0d34-4dbe-857d-4c50107dfd33)
-    (property "Reference" "J10" (at 275.59 65.786 0)
+    (property "Reference" "J8" (at 275.59 65.786 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Right out" (at 274.828 68.199 0)
@@ -2962,7 +2913,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "J10") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -2997,7 +2948,7 @@
   (symbol (lib_id "Amplifier_Operational:TL074") (at 122.555 176.53 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c85e647-ade2-4cf5-acb0-c8ebc3217392)
-    (property "Reference" "U3" (at 121.158 175.26 0)
+    (property "Reference" "U2" (at 121.158 175.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TL074" (at 121.158 177.8 0)
@@ -3026,7 +2977,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "U3") (unit 5)
+          (reference "U2") (unit 5)
         )
       )
     )
@@ -3137,7 +3088,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 273.812 34.544 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 36eab4db-202d-43a4-8f5a-52ab33d5d8af)
-    (property "Reference" "J7" (at 276.352 33.274 0)
+    (property "Reference" "J9" (at 276.352 33.274 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "fsw pin 3" (at 268.732 37.084 0)
@@ -3153,7 +3104,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "J7") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -3190,7 +3141,7 @@
   (symbol (lib_id "Amplifier_Operational:TL074") (at 231.902 34.544 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 436ec739-caa7-4154-8fb5-2d67e4563319)
-    (property "Reference" "U3" (at 231.902 24.13 0)
+    (property "Reference" "U2" (at 231.902 24.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL074" (at 231.902 26.67 0)
@@ -3219,7 +3170,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "U3") (unit 2)
+          (reference "U2") (unit 2)
         )
       )
     )
@@ -3382,7 +3333,7 @@
   (symbol (lib_id "Device:R_US") (at 208.534 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5b31414c-894c-4ed8-bf75-6fb785cc31f6)
-    (property "Reference" "R16" (at 211.074 68.58 0)
+    (property "Reference" "R6" (at 211.074 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 211.074 71.12 0)
@@ -3399,7 +3350,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "R16") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -3492,7 +3443,7 @@
     (property "Value" "100n" (at 136.525 176.53 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT" (at 131.7498 171.45 0)
+    (property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" (at 131.7498 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 132.715 175.26 0)
@@ -3512,13 +3463,13 @@
   (symbol (lib_id "Device:C") (at 196.469 63.881 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 66ef6bf1-c148-47a3-8427-b56222309a53)
-    (property "Reference" "C11" (at 196.469 56.261 90)
+    (property "Reference" "C9" (at 196.469 56.261 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1u" (at 196.469 58.801 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT" (at 200.279 62.9158 0)
+    (property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" (at 200.279 62.9158 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 196.469 63.881 0)
@@ -3529,7 +3480,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "C11") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -3544,7 +3495,7 @@
     (property "Value" "100n" (at 65.405 176.53 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT" (at 60.6298 171.45 0)
+    (property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" (at 60.6298 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 61.595 175.26 0)
@@ -3564,7 +3515,7 @@
   (symbol (lib_id "Amplifier_Operational:TL074") (at 103.505 53.975 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7d974223-ffed-47c7-b3e8-5717cb48f090)
-    (property "Reference" "U3" (at 103.505 44.577 0)
+    (property "Reference" "U2" (at 103.505 44.577 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL074" (at 103.505 47.117 0)
@@ -3593,7 +3544,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "U3") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -3602,7 +3553,7 @@
   (symbol (lib_id "Device:R_US") (at 259.461 74.041 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7e448723-4af5-4341-a53a-ccdd37838ca3)
-    (property "Reference" "R18" (at 254.381 72.517 0)
+    (property "Reference" "R17" (at 254.381 72.517 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100K" (at 253.111 75.311 0)
@@ -3619,7 +3570,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "R18") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -3628,7 +3579,7 @@
   (symbol (lib_id "Device:R_US") (at 214.122 24.511 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f666ff8-36b8-4c2e-9cdc-07e24a0fb539)
-    (property "Reference" "R5" (at 216.662 23.241 0)
+    (property "Reference" "R7" (at 216.662 23.241 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 216.662 25.781 0)
@@ -3645,7 +3596,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "R5") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -3654,7 +3605,7 @@
   (symbol (lib_id "power:GND") (at 208.534 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7fa00d51-8786-4876-b425-d51633cc1592)
-    (property "Reference" "#PWR027" (at 208.534 80.01 0)
+    (property "Reference" "#PWR023" (at 208.534 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 208.534 78.74 0)
@@ -3670,7 +3621,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -3685,7 +3636,7 @@
     (property "Value" "100p" (at 48.895 61.595 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT" (at 46.0502 64.135 0)
+    (property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" (at 46.0502 64.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 45.085 60.325 0)
@@ -3948,7 +3899,7 @@
   (symbol (lib_id "Device:R_US") (at 267.843 42.164 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9b8cbf5a-d639-4547-9962-6b92e6aaa034)
-    (property "Reference" "R14" (at 270.383 40.894 0)
+    (property "Reference" "R18" (at 270.383 40.894 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100K" (at 270.383 43.434 0)
@@ -3965,7 +3916,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "R14") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -4025,13 +3976,13 @@
   (symbol (lib_id "Device:C") (at 262.382 34.544 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad847f8b-47ca-49bf-befa-6c3e904e4f12)
-    (property "Reference" "C10" (at 262.382 26.924 90)
+    (property "Reference" "C12" (at 262.382 26.924 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1u" (at 262.382 29.464 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT" (at 266.192 33.5788 0)
+    (property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" (at 266.192 33.5788 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 262.382 34.544 0)
@@ -4042,7 +3993,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "C10") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -4051,7 +4002,7 @@
   (symbol (lib_id "power:GND") (at 267.843 45.974 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b57c894a-683c-4223-aca1-d07f97e9fe21)
-    (property "Reference" "#PWR024" (at 267.843 52.324 0)
+    (property "Reference" "#PWR029" (at 267.843 52.324 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 267.843 51.054 0)
@@ -4067,7 +4018,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -4076,7 +4027,7 @@
   (symbol (lib_id "Device:R_US") (at 215.011 152.019 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b5e55cd4-6a2b-476b-8814-a6e490637770)
-    (property "Reference" "R11" (at 214.249 150.114 90)
+    (property "Reference" "R13" (at 214.249 150.114 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 217.678 149.987 90)
@@ -4093,7 +4044,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "R11") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -4102,7 +4053,7 @@
   (symbol (lib_id "Amplifier_Operational:TL074") (at 226.314 66.421 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b67a8baa-db9b-45c8-ac90-1baa6f15cda1)
-    (property "Reference" "U3" (at 226.314 56.388 0)
+    (property "Reference" "U2" (at 226.314 56.388 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TL074" (at 226.314 58.928 0)
@@ -4131,7 +4082,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "U3") (unit 3)
+          (reference "U2") (unit 3)
         )
       )
     )
@@ -4146,7 +4097,7 @@
     (property "Value" "100n" (at 78.105 176.53 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT" (at 73.3298 171.45 0)
+    (property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" (at 73.3298 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 74.295 175.26 0)
@@ -4166,7 +4117,7 @@
   (symbol (lib_id "Device:R_US") (at 215.011 157.099 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bfc07ca6-4d36-4174-a952-085629355d5b)
-    (property "Reference" "R12" (at 214.249 155.194 90)
+    (property "Reference" "R14" (at 214.249 155.194 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 217.678 155.067 90)
@@ -4183,7 +4134,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "R12") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -4192,13 +4143,13 @@
   (symbol (lib_id "Device:C") (at 254 66.421 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c043e123-bb7f-414d-9320-94497f207599)
-    (property "Reference" "C12" (at 254 58.801 90)
+    (property "Reference" "C11" (at 254 58.801 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1u" (at 254 61.341 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT" (at 257.81 65.4558 0)
+    (property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" (at 257.81 65.4558 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 254 66.421 0)
@@ -4209,7 +4160,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "C12") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -4422,7 +4373,7 @@
   (symbol (lib_id "power:+5V") (at 208.534 52.578 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cdf142ae-8cdb-4290-8181-0a7ed964252e)
-    (property "Reference" "#PWR026" (at 208.534 56.388 0)
+    (property "Reference" "#PWR022" (at 208.534 56.388 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 208.534 47.498 0)
@@ -4438,7 +4389,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -4453,7 +4404,7 @@
     (property "Value" "1u" (at 53.975 46.355 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT" (at 57.785 50.4698 0)
+    (property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" (at 57.785 50.4698 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 53.975 51.435 0)
@@ -4473,7 +4424,7 @@
   (symbol (lib_id "Device:R_US") (at 242.824 66.421 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc124ba2-05ea-4018-a581-b26e873a2691)
-    (property "Reference" "R17" (at 242.824 60.071 90)
+    (property "Reference" "R15" (at 242.824 60.071 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 242.824 62.611 90)
@@ -4490,7 +4441,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "R17") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -4499,7 +4450,7 @@
   (symbol (lib_id "Device:R_US") (at 215.011 121.539 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid de00ce3e-eba9-49c4-bc25-9816eb85eb6c)
-    (property "Reference" "R7" (at 213.868 119.507 90)
+    (property "Reference" "R9" (at 213.868 119.507 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 216.662 119.507 90)
@@ -4516,7 +4467,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "R7") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -4550,7 +4501,7 @@
   (symbol (lib_id "Device:R_US") (at 214.122 37.973 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e2533196-cf0a-4527-873e-7e9f23ed0b81)
-    (property "Reference" "R6" (at 216.662 36.703 0)
+    (property "Reference" "R8" (at 216.662 36.703 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 216.662 39.243 0)
@@ -4567,7 +4518,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "R6") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -4576,7 +4527,7 @@
   (symbol (lib_id "power:GND") (at 263.144 103.251 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f296b86d-b9d2-4932-88b3-fbd9ba5ccff0)
-    (property "Reference" "#PWR025" (at 263.144 109.601 0)
+    (property "Reference" "#PWR027" (at 263.144 109.601 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 263.144 108.331 0)
@@ -4592,7 +4543,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -4601,7 +4552,7 @@
   (symbol (lib_id "Connector_Audio:AudioJack2") (at 268.224 100.711 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f5fa1117-55ce-4779-94b4-aed21268f7cf)
-    (property "Reference" "J8" (at 273.304 100.076 0)
+    (property "Reference" "J7" (at 273.304 100.076 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Left out" (at 273.304 102.616 0)
@@ -4618,7 +4569,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "J8") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -4627,7 +4578,7 @@
   (symbol (lib_id "power:GND") (at 259.461 77.851 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f66dffd3-4c7d-4cff-bdfc-051ede273324)
-    (property "Reference" "#PWR028" (at 259.461 84.201 0)
+    (property "Reference" "#PWR026" (at 259.461 84.201 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 259.461 82.931 0)
@@ -4643,7 +4594,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -4678,7 +4629,7 @@
   (symbol (lib_id "power:+5V") (at 214.122 20.701 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc69ac1b-551f-4bbd-b585-fb3cb39d1fa3)
-    (property "Reference" "#PWR022" (at 214.122 24.511 0)
+    (property "Reference" "#PWR024" (at 214.122 24.511 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 214.122 15.621 0)
@@ -4694,7 +4645,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
