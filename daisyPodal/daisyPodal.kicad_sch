@@ -1868,6 +1868,10 @@
     (stroke (width 0) (type default))
     (uuid 07454932-443b-4b0e-b36c-baacfa6eb0db)
   )
+  (wire (pts (xy 137.16 148.59) (xy 119.253 148.59))
+    (stroke (width 0) (type default))
+    (uuid 07c7de5f-f818-429a-b97f-e598e216415f)
+  )
   (wire (pts (xy 137.16 128.27) (xy 133.35 128.27))
     (stroke (width 0) (type default))
     (uuid 0aed8b79-f2a5-4bdf-8707-950997302a8d)
@@ -1984,7 +1988,7 @@
     (stroke (width 0) (type default))
     (uuid 49e5f105-c69a-48b0-9e54-f6f066e2ec0a)
   )
-  (wire (pts (xy 73.025 146.05) (xy 75.565 146.05))
+  (wire (pts (xy 106.553 148.59) (xy 109.093 148.59))
     (stroke (width 0) (type default))
     (uuid 4aa58fe3-5910-4aee-a153-624c18357b2a)
   )
@@ -2104,10 +2108,6 @@
     (stroke (width 0) (type default))
     (uuid 8bb75cd7-190a-41e3-b215-05b90bf048d1)
   )
-  (wire (pts (xy 85.725 146.05) (xy 137.16 146.05))
-    (stroke (width 0) (type default))
-    (uuid 8f5f1036-b2c8-48e0-a1ce-3a57b7fde9f1)
-  )
   (wire (pts (xy 266.192 34.544) (xy 267.843 34.544))
     (stroke (width 0) (type default))
     (uuid 91b32cda-3a6d-4f01-9a39-fcc72597f537)
@@ -2204,7 +2204,7 @@
     (stroke (width 0) (type default))
     (uuid d36dff9e-3695-46a5-aac0-3c78e464e248)
   )
-  (wire (pts (xy 137.16 130.81) (xy 137.16 146.05))
+  (wire (pts (xy 137.16 130.81) (xy 137.16 148.59))
     (stroke (width 0) (type default))
     (uuid d38fb83f-b7c0-437f-b4c9-c12b7c55921f)
   )
@@ -2533,26 +2533,26 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 73.025 146.05 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 106.553 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0e47503b-52ae-4ed3-aff8-81121f14565e)
-    (property "Reference" "#PWR07" (at 73.025 152.4 0)
+    (property "Reference" "#PWR014" (at 106.553 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 73.025 151.13 0)
+    (property "Value" "GND" (at 106.553 153.67 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 73.025 146.05 0)
+    (property "Footprint" "" (at 106.553 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 73.025 146.05 0)
+    (property "Datasheet" "" (at 106.553 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f0368141-6e89-4a63-b934-6a8c20136033))
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -2744,7 +2744,7 @@
   (symbol (lib_id "power:GND") (at 85.725 73.025 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20ea3e7d-5b51-4af6-98c0-306a08c03d2b)
-    (property "Reference" "#PWR010" (at 85.725 79.375 0)
+    (property "Reference" "#PWR09" (at 85.725 79.375 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 85.725 78.105 0)
@@ -2760,7 +2760,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -2794,7 +2794,7 @@
   (symbol (lib_id "power:GND") (at 93.345 139.065 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 25cf6d28-836d-45c3-a435-732dbdf27fd7)
-    (property "Reference" "#PWR012" (at 93.345 145.415 0)
+    (property "Reference" "#PWR011" (at 93.345 145.415 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 93.345 144.145 0)
@@ -2810,7 +2810,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -3011,7 +3011,7 @@
   (symbol (lib_id "power:GND") (at 74.295 189.865 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2e090e2d-e6fa-4abf-aa41-8d2f00ca2875)
-    (property "Reference" "#PWR08" (at 74.295 196.215 0)
+    (property "Reference" "#PWR07" (at 74.295 196.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 74.295 194.945 0)
@@ -3027,7 +3027,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -3110,19 +3110,19 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push_Dual") (at 80.645 143.51 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Switch:SW_Push_Dual") (at 114.173 146.05 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ec0298d-0210-4419-94f2-0f37c95391ec)
-    (property "Reference" "SW1" (at 80.645 133.985 0)
+    (property "Reference" "SW2" (at 106.934 145.669 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Switch 2" (at 80.645 136.525 0)
+    (property "Value" "Switch 2" (at 114.3 139.954 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Button_Switch_THT:SW_CW_GPTS203211B_1 podal" (at 80.645 151.13 0)
+    (property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x02_P7mm_D1.25mm_OD3.5mm" (at 114.173 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 80.645 143.51 0)
+    (property "Datasheet" "~" (at 114.173 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 93bf6d91-d1f4-4219-8267-cf04f10ba88e))
@@ -3132,7 +3132,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "SW1") (unit 1)
+          (reference "SW2") (unit 1)
         )
       )
     )
@@ -3179,7 +3179,7 @@
   (symbol (lib_id "power:GND") (at 106.045 189.865 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43a51073-8768-4dc6-8742-d6b4091827d7)
-    (property "Reference" "#PWR014" (at 106.045 196.215 0)
+    (property "Reference" "#PWR013" (at 106.045 196.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 106.045 194.945 0)
@@ -3195,7 +3195,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -3656,7 +3656,7 @@
   (symbol (lib_id "power:GND") (at 100.33 87.63 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83d4aec9-6572-4b2c-b459-6a8026541f63)
-    (property "Reference" "#PWR013" (at 100.33 81.28 0)
+    (property "Reference" "#PWR012" (at 100.33 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 103.378 86.36 0)
@@ -3672,7 +3672,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -3770,7 +3770,7 @@
   (symbol (lib_id "power:GND") (at 81.28 101.6 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d84bffe-bda2-4b4f-b339-7f50ad0edfae)
-    (property "Reference" "#PWR09" (at 81.28 95.25 0)
+    (property "Reference" "#PWR08" (at 81.28 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 84.328 100.33 0)
@@ -3786,7 +3786,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -3846,13 +3846,13 @@
   (symbol (lib_id "Switch:SW_Push_Dual") (at 102.235 134.62 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 96d4ea43-49bb-46ae-890e-51cd1c9209c0)
-    (property "Reference" "SW2" (at 102.235 125.73 0)
+    (property "Reference" "SW1" (at 102.235 125.73 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Switch 1" (at 102.235 128.27 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Button_Switch_THT:SW_CW_GPTS203211B_1 podal" (at 102.235 142.24 0)
+    (property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x02_P7mm_D1.25mm_OD3.5mm" (at 102.235 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 102.235 134.62 0)
@@ -3865,7 +3865,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "SW2") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
     )
@@ -3925,7 +3925,7 @@
   (symbol (lib_id "power:GND") (at 90.805 189.865 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9f2efe46-9ced-4a9c-b68d-a0e05cb31ee7)
-    (property "Reference" "#PWR011" (at 90.805 196.215 0)
+    (property "Reference" "#PWR010" (at 90.805 196.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.805 194.945 0)
@@ -3941,7 +3941,7 @@
     (instances
       (project "daisyPodal"
         (path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
