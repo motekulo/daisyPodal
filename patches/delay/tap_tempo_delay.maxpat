@@ -1565,13 +1565,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-5", 1 ],
-									"source" : [ "obj-13", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-13", 1 ],
 									"source" : [ "obj-14", 0 ]
 								}
@@ -1602,6 +1595,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-3", 1 ],
+									"order" : 2,
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 1 ],
+									"midpoints" : [ 130.5, 534.0, 165.0, 534.0, 165.0, 183.0, 142.0, 183.0 ],
 									"order" : 1,
 									"source" : [ "obj-18", 0 ]
 								}
@@ -1728,7 +1730,7 @@
 ,
 					"patching_rect" : [ 18.0, 381.0, 137.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"exportfolder" : "Macintosh HD:/Users/dcrowdy/working/daisyPodal/patches/",
+						"exportfolder" : "Macintosh HD:/Users/dcrowdy/working/daisyPodal/patches/delay/",
 						"exportname" : "tap_tempo_delay"
 					}
 ,
@@ -2078,21 +2080,21 @@
 , 			{
 				"name" : "oopsy.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/oopsy/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/oopsy/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/oopsy/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oopsy.node4max.js",
 				"bootpath" : "~/Documents/Max 8/Packages/oopsy/javascript",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/oopsy/javascript",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/oopsy/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oopsy.snoop.js",
 				"bootpath" : "~/Documents/Max 8/Packages/oopsy/javascript",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/oopsy/javascript",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/oopsy/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
