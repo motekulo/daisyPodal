@@ -7,10 +7,10 @@
 #X obj 210 188 *~ 1000;
 #X obj 79 298 *~;
 #X obj 79 390 hv.filter~ lowpass 2000 2;
-#X floatatom 962 70 16 0 0 0 - - - 16;
-#X obj 816 96 r Encoder @hv_param;
+#X floatatom 964 52 16 0 0 0 - - - 16;
+#X obj 816 81 r Encoder @hv_param;
 #X msg 858 126 1;
-#X obj 826 70 hsl 128 17 200 8000 0 0 empty empty empty -2 -8 0 10 #e4e4e4 #4d4d4d #373737 0 1;
+#X obj 828 52 hsl 128 17 200 8000 0 0 empty empty empty -2 -8 0 10 #e4e4e4 #4d4d4d #373737 0 1;
 #X obj 439 42 vsl 17 128 0 1 0 0 empty empty empty 0 -9 0 10 #e4e4e4 #4d4d4d #373737 0 1;
 #X obj 206 34 vsl 17 128 0 1 0 0 empty empty empty 0 -9 0 10 #e4e4e4 #4d4d4d #373737 0 1;
 #X floatatom 776 380 16 0 0 0 - - - 16;
@@ -38,7 +38,7 @@
 #X obj 872 341 s led1 @hv_param;
 #X text 242 33 Drive;
 #X text 480 41 Volume;
-#X text 825 41 Cutoff (tone);
+#X text 827 23 Cutoff (tone);
 #X text 491 297 Convert to exponential scale for frequency;
 #X connect 1 0 5 0;
 #X connect 2 0 4 0;

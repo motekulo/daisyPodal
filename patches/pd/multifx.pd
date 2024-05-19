@@ -1,5 +1,5 @@
 #N canvas 827 239 527 327 12;
-#N canvas 733 172 450 300 tapdelay 0;
+#N canvas 733 172 450 300 tapdelay 1;
 #X obj 148 100 r~ feedback;
 #X obj 7 188 hsl 162 19 0 2000 0 0 empty empty Delay\ time -2 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 4 240 pack f 50;
