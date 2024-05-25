@@ -7,7 +7,7 @@
 	(title_block
 		(title "DaisyPdal")
 		(date "2024-04-25")
-		(rev "0.3")
+		(rev "0.2")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL074"
@@ -6156,7 +6156,7 @@
 			(uuid "faa0bb20-d07e-4710-ba2e-c2544c7843a0")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR027")
 					(unit 1)
@@ -6222,7 +6222,7 @@
 			(uuid "d6d3a258-cbb2-4ac5-abbc-d052ceb9b1a5")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR032")
 					(unit 1)
@@ -6289,7 +6289,7 @@
 			(uuid "1e462ba6-4938-42da-bdbb-533d2abbbe93")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "R10")
 					(unit 1)
@@ -6356,7 +6356,7 @@
 			(uuid "513c6012-1332-49c0-ba2f-4e3f89f21671")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "R12")
 					(unit 1)
@@ -6430,7 +6430,7 @@
 			(uuid "0e5e180f-a502-4cf9-b477-343a76afa31e")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "D3")
 					(unit 1)
@@ -6498,7 +6498,7 @@
 			(uuid "dcb92028-946a-4c23-973a-4ea85d0867df")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "R16")
 					(unit 1)
@@ -6564,7 +6564,7 @@
 			(uuid "f0368141-6e89-4a63-b934-6a8c20136033")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR013")
 					(unit 1)
@@ -6641,7 +6641,7 @@
 			(uuid "47c4a3e1-0085-4be2-b620-e6d72481a0dc")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "SW3")
 					(unit 1)
@@ -6711,7 +6711,7 @@
 			(uuid "3e5ea6dc-bd5b-417f-a11c-461af543cada")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "R3")
 					(unit 1)
@@ -6779,7 +6779,7 @@
 			(uuid "19d5a500-7826-4064-b6ab-df0ea855eae1")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "C8")
 					(unit 1)
@@ -6846,7 +6846,7 @@
 			(uuid "3bb6d357-600c-4d8f-9662-fc3249f67fd2")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "R11")
 					(unit 1)
@@ -6912,7 +6912,7 @@
 			(uuid "cf382d9e-4c8a-418b-9c22-b69e6daab3fe")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR015")
 					(unit 1)
@@ -6947,7 +6947,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD3.5mm"
 			(at 48.895 182.88 0)
 			(effects
 				(font
@@ -6978,7 +6978,7 @@
 			(uuid "318a9868-aea9-4c1c-a6ec-b60ebadb60d2")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "J5")
 					(unit 1)
@@ -7044,7 +7044,7 @@
 			(uuid "3f3fd46a-3ac3-45dd-be27-6404300fec16")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR029")
 					(unit 1)
@@ -7110,7 +7110,7 @@
 			(uuid "14b83bf2-1078-4c27-8538-1b90392f9dc0")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR024")
 					(unit 1)
@@ -7144,7 +7144,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+		(property "Footprint" ""
 			(at 139.827 41.91 0)
 			(effects
 				(font
@@ -7214,7 +7214,7 @@
 			(uuid "4e27505d-5bde-4ed5-8a1c-3dc4d2f340bc")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "U1")
 					(unit 4)
@@ -7280,7 +7280,7 @@
 			(uuid "627e2c18-8903-478b-b365-593a94f28f48")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR010")
 					(unit 1)
@@ -7346,7 +7346,7 @@
 			(uuid "ed6dcdce-ee79-4c0d-88e9-253195728c73")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR02")
 					(unit 1)
@@ -7416,7 +7416,7 @@
 			(uuid "b7cfee7c-c1be-406a-bf35-f8d8b0783992")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "R5")
 					(unit 1)
@@ -7486,7 +7486,7 @@
 			(uuid "982be113-f21c-4f39-a33e-026b5bede1f2")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "C5")
 					(unit 1)
@@ -7521,7 +7521,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NRJ6HM-1_Horizontal"
 			(at 270.51 66.421 0)
 			(effects
 				(font
@@ -7555,7 +7555,7 @@
 			(uuid "8593bec8-0837-4516-aac4-06018aaa5956")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "J8")
 					(unit 1)
@@ -7625,7 +7625,7 @@
 			(uuid "f2a1e084-ad43-4c5e-b260-6203751883f5")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "R4")
 					(unit 1)
@@ -7731,7 +7731,7 @@
 			(uuid "4a29bf64-3870-4325-898e-205b474ca3eb")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "U1")
 					(unit 5)
@@ -7797,7 +7797,7 @@
 			(uuid "6b57f74f-0157-4117-a6b1-ff379c166e57")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR016")
 					(unit 1)
@@ -7863,7 +7863,7 @@
 			(uuid "2060c3f6-62ec-4700-aa72-a76a883f62e1")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR07")
 					(unit 1)
@@ -7936,7 +7936,7 @@
 			(uuid "8c41d782-3a1d-406e-b5e0-5b74cb1c9a47")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "RV2")
 					(unit 1)
@@ -8002,7 +8002,7 @@
 			(uuid "72a6a7c8-fc67-4c3e-9a79-74b83a300bb2")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR018")
 					(unit 1)
@@ -8037,7 +8037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD3.5mm"
 			(at 273.812 34.544 0)
 			(effects
 				(font
@@ -8068,7 +8068,7 @@
 			(uuid "31ddaa84-f60b-4b3e-b926-a99b6557f9f8")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "J9")
 					(unit 1)
@@ -8101,7 +8101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x02_P4mm_D0.5mm_OD1.5mm"
+		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x02_P7mm_D1.25mm_OD3.5mm"
 			(at 114.173 153.67 0)
 			(effects
 				(font
@@ -8141,7 +8141,7 @@
 			(uuid "e4d15b7a-ad1f-4353-abc9-d6077af51e6f")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "SW2")
 					(unit 1)
@@ -8245,7 +8245,7 @@
 			(uuid "4a29bf64-3870-4325-898e-205b474ca3ec")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "U1")
 					(unit 2)
@@ -8311,7 +8311,7 @@
 			(uuid "2697a719-49f6-4859-816f-e235dd33f720")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR012")
 					(unit 1)
@@ -8377,7 +8377,7 @@
 			(uuid "9722b7b8-174c-4e83-ba80-f6fb4078e858")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR04")
 					(unit 1)
@@ -8413,7 +8413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x02_P4.2mm_D0.65mm_OD1.7mm"
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal_centre_negative"
 			(at 18.415 169.926 90)
 			(effects
 				(font
@@ -8447,7 +8447,7 @@
 			(uuid "d6f69115-5f1a-45bc-999b-fe1825381eb4")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "BT1")
 					(unit 1)
@@ -8513,7 +8513,7 @@
 			(uuid "3db40b2e-fe76-41da-a4d4-12975f4b0c81")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR03")
 					(unit 1)
@@ -8579,7 +8579,7 @@
 			(uuid "2ae9dd1a-4e5e-4df6-80a3-869cce168cc3")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR017")
 					(unit 1)
@@ -8653,7 +8653,7 @@
 			(uuid "21eb11b1-2ff1-4622-aeb1-2c87cd6c140b")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "D4")
 					(unit 1)
@@ -8723,7 +8723,7 @@
 			(uuid "77df0d01-2dd6-48ca-9173-49180dc6666e")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "R6")
 					(unit 1)
@@ -8759,7 +8759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm"
 			(at 43.815 175.26 0)
 			(effects
 				(font
@@ -8793,7 +8793,7 @@
 			(uuid "947dd022-cc2f-40df-8c91-f6db0a349e3f")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "C1")
 					(unit 1)
@@ -8865,7 +8865,7 @@
 			(uuid "6aa5cfd7-04c2-4220-b878-d6aaa9231594")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "U2")
 					(unit 1)
@@ -8931,7 +8931,7 @@
 			(uuid "15b8f9a0-59ab-4cb8-b4e6-6fd9dee6b25d")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR06")
 					(unit 1)
@@ -9001,7 +9001,7 @@
 			(uuid "90d59803-d14b-49bb-a36c-a6f6844bae4d")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "C6")
 					(unit 1)
@@ -9069,7 +9069,7 @@
 			(uuid "11942db4-bf35-49d2-9029-8dbb98cc9ecd")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "C7")
 					(unit 1)
@@ -9139,7 +9139,7 @@
 			(uuid "368aabab-2ede-41f2-8570-7ee34301adaf")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "C3")
 					(unit 1)
@@ -9206,7 +9206,7 @@
 			(uuid "1fae83b3-fa04-4852-be84-5dccc252b234")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "R22")
 					(unit 1)
@@ -9310,7 +9310,7 @@
 			(uuid "4a29bf64-3870-4325-898e-205b474ca3ed")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "U1")
 					(unit 1)
@@ -9379,7 +9379,7 @@
 			(uuid "f08409dd-93f6-4efc-875c-8396cae9b0e4")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "R17")
 					(unit 1)
@@ -9449,7 +9449,7 @@
 			(uuid "53083c37-ece2-4105-89a8-a7c292194faa")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "R7")
 					(unit 1)
@@ -9515,7 +9515,7 @@
 			(uuid "e6dcd495-fed7-458e-aaaa-8f450b5d4646")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR022")
 					(unit 1)
@@ -9582,7 +9582,7 @@
 			(uuid "381b7b1e-6d80-49ec-95f1-26743956e05d")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR011")
 					(unit 1)
@@ -9766,7 +9766,7 @@
 			(uuid "4a525034-ce54-4a63-8a4d-f91acecdd2b5")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "A1")
 					(unit 1)
@@ -9832,7 +9832,7 @@
 			(uuid "60b437ca-72a3-4332-adc9-440ba8918687")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR030")
 					(unit 1)
@@ -9902,7 +9902,7 @@
 			(uuid "68ea3676-17a2-4633-8839-10366698b88e")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "R2")
 					(unit 1)
@@ -9937,7 +9937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD3.5mm"
 			(at 29.845 38.1 0)
 			(effects
 				(font
@@ -9968,7 +9968,7 @@
 			(uuid "c256a67e-fc2c-42e2-b145-1164c7c422c2")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "J2")
 					(unit 1)
@@ -10038,7 +10038,7 @@
 			(uuid "9a07e0c0-f0d3-4abf-8e50-7b1f6a173a33")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "R20")
 					(unit 1)
@@ -10104,7 +10104,7 @@
 			(uuid "012a0fa7-bf54-4e7c-abfd-f8c064af35b9")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR031")
 					(unit 1)
@@ -10171,7 +10171,7 @@
 			(uuid "51fb7455-910c-49a4-956b-725e2b4454a7")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR08")
 					(unit 1)
@@ -10239,7 +10239,7 @@
 			(uuid "000694f4-0178-43f2-9018-c4bf54500707")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "D1")
 					(unit 1)
@@ -10274,7 +10274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD3.5mm"
 			(at 32.893 50.8 0)
 			(effects
 				(font
@@ -10305,7 +10305,7 @@
 			(uuid "2f89f041-5d95-4a84-a2e7-c412fa919599")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "J4")
 					(unit 1)
@@ -10339,7 +10339,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x02_P4mm_D0.5mm_OD1.5mm"
+		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x02_P7mm_D1.25mm_OD3.5mm"
 			(at 102.235 142.24 0)
 			(effects
 				(font
@@ -10379,7 +10379,7 @@
 			(uuid "559fcb9a-c6f2-4058-b10a-74494cef5aea")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "SW1")
 					(unit 1)
@@ -10445,7 +10445,7 @@
 			(uuid "bfe4eea3-5f14-4d86-b376-ee6004f3f86c")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR01")
 					(unit 1)
@@ -10515,7 +10515,7 @@
 			(uuid "c138a25d-e5d8-40e6-9df8-9dea0ab899b2")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "R18")
 					(unit 1)
@@ -10581,7 +10581,7 @@
 			(uuid "e01b8c0a-8250-4337-a736-c7acc1d9038d")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR09")
 					(unit 1)
@@ -10649,7 +10649,7 @@
 			(uuid "93cbf745-d107-477c-a2c5-3ebe069fdc08")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "C10")
 					(unit 1)
@@ -10715,7 +10715,7 @@
 			(uuid "d422f7e5-d32d-4375-be33-6abcd2c6512b")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR028")
 					(unit 1)
@@ -10782,7 +10782,7 @@
 			(uuid "1c590457-4368-4f82-8348-d6b6e3589a04")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "R13")
 					(unit 1)
@@ -10886,7 +10886,7 @@
 			(uuid "4a29bf64-3870-4325-898e-205b474ca3ee")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "U1")
 					(unit 3)
@@ -10956,7 +10956,7 @@
 			(uuid "62bdee25-6828-42ba-9c0f-310c1a0a6387")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "C4")
 					(unit 1)
@@ -11026,7 +11026,7 @@
 			(uuid "3a64383a-d1ed-499a-81aa-2b99a00c97fb")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "C12")
 					(unit 1)
@@ -11093,7 +11093,7 @@
 			(uuid "ccb0ec60-15b5-491d-9f77-b9b043a392df")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "R14")
 					(unit 1)
@@ -11161,7 +11161,7 @@
 			(uuid "9b2cafa5-1644-48a0-a643-8e9d116c002b")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "C9")
 					(unit 1)
@@ -11227,7 +11227,7 @@
 			(uuid "6a8e21ba-ed3d-41b3-8a45-fb6109e37a2d")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR019")
 					(unit 1)
@@ -11261,7 +11261,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NRJ6HM-1_Horizontal"
 			(at 19.685 38.1 0)
 			(effects
 				(font
@@ -11295,7 +11295,7 @@
 			(uuid "c3b2e1dd-b8cc-47ae-9094-36a688172e43")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "J1")
 					(unit 1)
@@ -11330,7 +11330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD3.5mm"
 			(at 258.064 100.711 0)
 			(effects
 				(font
@@ -11361,7 +11361,7 @@
 			(uuid "89e5afc9-3b2b-4646-9bf9-74066d3bfa77")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "J6")
 					(unit 1)
@@ -11431,7 +11431,7 @@
 			(uuid "6367162f-6384-44b0-9b65-23869544c1cb")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "C11")
 					(unit 1)
@@ -11497,7 +11497,7 @@
 			(uuid "b022a437-0dc5-4dad-8bc0-0d8c0358688c")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR05")
 					(unit 1)
@@ -11532,7 +11532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD3.5mm"
 			(at 31.115 153.67 0)
 			(effects
 				(font
@@ -11563,7 +11563,7 @@
 			(uuid "8020aa54-8120-4077-829d-9edfd2700b69")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "J3")
 					(unit 1)
@@ -11629,7 +11629,7 @@
 			(uuid "f17d5e70-2cfe-4136-b081-f523feeef2d0")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR020")
 					(unit 1)
@@ -11699,7 +11699,7 @@
 			(uuid "fadb1477-235e-4b4f-b814-dd13163a3d78")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "R1")
 					(unit 1)
@@ -11772,7 +11772,7 @@
 			(uuid "92692f13-c217-4136-b2f4-b0d0dbe58062")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "RV1")
 					(unit 1)
@@ -11838,7 +11838,7 @@
 			(uuid "3dc730e7-d3bc-483e-95db-ab9b62ffa89f")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR021")
 					(unit 1)
@@ -11906,7 +11906,7 @@
 			(uuid "2dbe6e17-13df-4159-8f0e-cdaff0422464")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "C2")
 					(unit 1)
@@ -11974,7 +11974,7 @@
 			(uuid "0f9f70d4-2ee9-44e9-afa0-5a473009fc40")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "R15")
 					(unit 1)
@@ -12041,7 +12041,7 @@
 			(uuid "2da930c6-47f0-44cc-b011-b54fbe24c36d")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "R9")
 					(unit 1)
@@ -12107,7 +12107,7 @@
 			(uuid "4bbe1c1e-6b71-4ce9-8945-b821e6fc67f2")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR014")
 					(unit 1)
@@ -12177,7 +12177,7 @@
 			(uuid "dde591c4-40ba-4989-9f42-ddf65770d617")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "R8")
 					(unit 1)
@@ -12243,7 +12243,7 @@
 			(uuid "191f35cc-2c18-46f6-b8f4-15f0ad947754")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR026")
 					(unit 1)
@@ -12279,7 +12279,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NRJ6HM-1_Horizontal"
 			(at 268.224 100.711 0)
 			(effects
 				(font
@@ -12313,7 +12313,7 @@
 			(uuid "8f506b12-674c-4689-aa5f-bc7422ddb92d")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "J7")
 					(unit 1)
@@ -12379,7 +12379,7 @@
 			(uuid "e8211091-b1f3-497f-9af3-02e07f7f1e00")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR025")
 					(unit 1)
@@ -12446,7 +12446,7 @@
 			(uuid "d0cb3df1-8eb2-4f1e-a366-830928ac9574")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "R21")
 					(unit 1)
@@ -12514,7 +12514,7 @@
 			(uuid "f548425a-a7bf-4db6-ad9a-f67ad7b3f243")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "D2")
 					(unit 1)
@@ -12580,7 +12580,7 @@
 			(uuid "d85704a2-7995-4666-b184-d6666bf52184")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR023")
 					(unit 1)
@@ -12650,7 +12650,7 @@
 			(uuid "828eeec3-72b7-44fa-8736-e70e53c836d5")
 		)
 		(instances
-			(project "podal_1590b"
+			(project "daisyPodal"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "R19")
 					(unit 1)

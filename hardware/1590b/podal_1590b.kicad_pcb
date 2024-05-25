@@ -186,6 +186,8 @@
 	(net 61 "Net-(U1D--)")
 	(net 62 "Net-(C12-Pad2)")
 	(net 63 "Net-(C11-Pad2)")
+	(net 64 "Net-(J2-Pin_1)")
+	(net 65 "Net-(J6-Pin_1)")
 	(footprint "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "021a7254-bd03-45fa-818f-21376f829229")
@@ -193,7 +195,7 @@
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D2"
-			(at 3.81 1.47 0)
+			(at 4 2 0)
 			(layer "F.SilkS")
 			(uuid "7270d70a-397a-4400-a71d-b8a19e76d137")
 			(effects
@@ -226,7 +228,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -238,7 +240,7 @@
 				)
 			)
 		)
-		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -250,7 +252,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "D*DO?41*")
 		(path "/fa8b3c6a-8076-4b59-9ee6-cd119623cafc")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -593,7 +597,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, red/anode/green/blue"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -605,7 +609,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0d1575d3-348a-4e84-9574-21c21c36de11")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -863,7 +869,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -875,7 +881,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/0d676a03-14e0-4bd7-970f-0c8d46f5c5a4")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1133,7 +1141,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1145,7 +1153,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/b5e55cd4-6a2b-476b-8814-a6e490637770")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1358,7 +1368,7 @@
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2.5mm^2, Capacitor")
 		(tags "C Rect series Radial pin pitch 5.00mm  length 7mm width 2.5mm Capacitor")
 		(property "Reference" "C9"
-			(at 1.651014 2.50162 90)
+			(at 7.141261 -0.107511 180)
 			(layer "F.SilkS")
 			(uuid "8f42ea74-3ca9-4e66-988b-2f3e1ea43afe")
 			(effects
@@ -1403,7 +1413,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1415,7 +1425,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c043e123-bb7f-414d-9320-94497f207599")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1633,7 +1645,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1645,7 +1657,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/2c3c5b08-3e02-4788-8012-64f355ecd8a8")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1903,7 +1917,7 @@
 				)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1915,7 +1929,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Jack*")
 		(path "/2af003bf-0d34-4dbe-857d-4c50107dfd33")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -2008,7 +2024,7 @@
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2.5mm^2, Capacitor")
 		(tags "C Rect series Radial pin pitch 5.00mm  length 7mm width 2.5mm Capacitor")
 		(property "Reference" "C7"
-			(at -1.861904 0.011082 90)
+			(at -1.861904 0.011082 180)
 			(layer "F.SilkS")
 			(uuid "0c8a472f-d614-4721-b14e-53477b34f9e1")
 			(effects
@@ -2053,7 +2069,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2065,7 +2081,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/66ef6bf1-c148-47a3-8427-b56222309a53")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2231,6 +2249,158 @@
 			)
 		)
 	)
+	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(layer "F.Cu")
+		(uuid "1a8403a5-da5d-4574-9af3-0dda4c354f3d")
+		(at 169 81)
+		(descr "Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.25sqmm")
+		(property "Reference" "J7"
+			(at 0 -2.2 0)
+			(layer "F.SilkS")
+			(uuid "80621f02-e3f2-43bd-98a6-cb93baf0d714")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Left out"
+			(at 0 2.2 0)
+			(layer "F.Fab")
+			(uuid "e6b6f5f5-285c-4c7f-84f7-f6f5f8261444")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20368b29-bfb5-440f-854a-8a3fef9cf8d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f692f4da-a6b2-43c5-b609-f592cde9b1ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d131af22-b5e1-4212-a30f-d02d8dbac085")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "Jack*")
+		(path "/f5fa1117-55ce-4779-94b4-aed21268f7cf")
+		(sheetname "Root")
+		(sheetfile "podal_1590b.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.75 -1.5)
+			(end -1.75 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "18b85aee-4a8f-41ee-b54d-5f51c3349234")
+		)
+		(fp_line
+			(start -1.75 1.5)
+			(end 1.75 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7b66dc49-8847-41d0-b5cd-abfc8ae140a9")
+		)
+		(fp_line
+			(start 1.75 -1.5)
+			(end -1.75 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6115a75b-95ce-4f87-aaba-51dc5d77a63e")
+		)
+		(fp_line
+			(start 1.75 1.5)
+			(end 1.75 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "31bcd3c4-47fa-46f4-baec-9289ff6e5f2b")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "816938ce-11f6-4763-a630-87dfd38c66e4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "be877302-e14b-409e-9bfd-2481332e4613")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 2 2)
+			(drill 0.85)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.125)
+			(uuid "3734e965-c992-4bff-8694-0f5c34940042")
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "1ca37188-4e25-40ea-8857-5a6fee86298e")
@@ -2283,7 +2453,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2295,7 +2465,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/ad847f8b-47ca-49bf-befa-6c3e904e4f12")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2468,7 +2640,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R18"
-			(at 3 3 90)
+			(at 9.662094 1.992686 90)
 			(layer "F.SilkS")
 			(uuid "fa2cd33a-d189-4a9a-a62d-e41bb3503673")
 			(effects
@@ -2513,7 +2685,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2525,7 +2697,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/9b8cbf5a-d639-4547-9962-6b92e6aaa034")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2738,7 +2912,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R19"
-			(at -2.92 0 90)
+			(at 9.869894 -1.423086 180)
 			(layer "F.SilkS")
 			(uuid "4264bc27-4430-47d5-9bff-67a45864a58a")
 			(effects
@@ -2783,7 +2957,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2795,7 +2969,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/feba2b4c-28fa-46df-a4b5-d1beb5ea201b")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -3054,7 +3230,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3066,7 +3242,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/9212e5b8-58f9-4f46-89ec-6b9e51ac9386")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -3301,7 +3479,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R9"
-			(at 12.930684 0.1 0)
+			(at 12.08 0 0)
 			(layer "F.SilkS")
 			(uuid "e6b9ed76-eb63-43b9-8575-ef615c601924")
 			(effects
@@ -3346,7 +3524,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3358,7 +3536,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/de00ce3e-eba9-49c4-bc25-9816eb85eb6c")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -3564,6 +3744,161 @@
 			)
 		)
 	)
+	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(layer "F.Cu")
+		(uuid "3d683731-be15-496e-9d28-ae06879f3878")
+		(at 169 76.95)
+		(descr "Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.25sqmm")
+		(property "Reference" "J6"
+			(at 0 -2.2 0)
+			(layer "F.SilkS")
+			(uuid "6c6cc47a-76dd-4752-954c-a983276b9f6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "fsw pin 6"
+			(at 0 2.2 0)
+			(layer "F.Fab")
+			(uuid "e3b51793-5f1f-4399-99fd-d76c947a4a45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f18c759c-e31c-445d-8b39-ba1b1883f739")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a57a5edd-1f61-4610-800f-ea244fd18489")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a1268a7-6a0e-416f-bd80-bd86badc018f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/c2850d54-9db5-4eac-b916-0708403a6361")
+		(sheetname "Root")
+		(sheetfile "podal_1590b.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.75 -1.5)
+			(end -1.75 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "985d96b8-1785-4ab6-948d-b5b55f63afc3")
+		)
+		(fp_line
+			(start -1.75 1.5)
+			(end 1.75 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0d513e19-d6c4-453e-93e5-8cca892aca43")
+		)
+		(fp_line
+			(start 1.75 -1.5)
+			(end -1.75 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "397a41a3-d175-4c17-ab58-0d713f0f1e67")
+		)
+		(fp_line
+			(start 1.75 1.5)
+			(end 1.75 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "12f3707f-41cc-45ce-b312-44008dccbca0")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "08af4716-3ced-4e6e-8d38-c56dffee23d3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "79753ecd-3224-4de4-9714-acb8795375fb")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 2 2)
+			(drill 0.85)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.125)
+			(net 65 "Net-(J6-Pin_1)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "687aeec6-af93-4801-8216-dc8ba7605062")
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "3dd4b99f-9b62-4088-81eb-c3848dd054ff")
@@ -3616,7 +3951,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3628,7 +3963,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/696540d0-beaa-4637-8c10-33b1453a64ba")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -3846,7 +4183,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3858,7 +4195,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/36eab4db-202d-43a4-8f5a-52ab33d5d8af")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -3999,7 +4338,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4011,7 +4350,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/1dda3dac-595e-4a20-99ac-7216e6581f47")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -4108,7 +4449,7 @@
 		(descr "LED, diameter 5.0mm, 4 pins, WP154A4, https://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.11A).pdf")
 		(tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins RGB RGBLED")
 		(property "Reference" "D4"
-			(at 6.9 -2 0)
+			(at 1.77 4 0)
 			(layer "F.SilkS")
 			(uuid "5c156575-e52e-4108-ab9f-257e2bb90c60")
 			(effects
@@ -4153,7 +4494,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, red/anode/green/blue"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4165,7 +4506,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/59d383eb-96f9-4787-aaf7-a35c88c15acd")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -4378,7 +4721,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R22"
-			(at 6.08 2 90)
+			(at 1.116935 -2.461572 180)
 			(layer "F.SilkS")
 			(uuid "ad6eb4fb-cd21-4c34-b484-628192f815a5")
 			(effects
@@ -4423,7 +4766,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4435,7 +4778,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/700d78cf-5069-40cd-bd8b-255a588f7178")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -4648,7 +4993,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R7"
-			(at -1.84 0 90)
+			(at 0.16 1.5 180)
 			(layer "F.SilkS")
 			(uuid "5621f058-7ea8-4570-b16e-f437f52837e2")
 			(effects
@@ -4693,7 +5038,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4705,7 +5050,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/7f666ff8-36b8-4c2e-9cdc-07e24a0fb539")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -4963,7 +5310,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4975,7 +5322,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/bfc07ca6-4d36-4174-a952-085629355d5b")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -5234,7 +5583,7 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer, US symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5246,7 +5595,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Potentiometer*")
 		(path "/341328ed-e2be-4ec2-b752-cab861d59384")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -5511,7 +5862,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R20"
-			(at 12.58 0.5 90)
+			(at 0.08 1.5 180)
 			(layer "F.SilkS")
 			(uuid "af06f52e-3b53-4951-a47c-faf086ff161d")
 			(effects
@@ -5556,7 +5907,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5568,7 +5919,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8c0317fc-ad26-4dee-b329-613434062d1f")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -5826,7 +6179,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5838,7 +6191,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/14242c0b-0142-4287-915e-13f6879baef9")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -6051,7 +6406,7 @@
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2.5mm^2, Capacitor")
 		(tags "C Rect series Radial pin pitch 5.00mm  length 7mm width 2.5mm Capacitor")
 		(property "Reference" "C11"
-			(at -0.00053 2.408356 90)
+			(at -2 0 180)
 			(layer "F.SilkS")
 			(uuid "321938b4-0168-4fee-86c8-87573f1f4df0")
 			(effects
@@ -6096,7 +6451,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6108,7 +6463,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c834dd7e-7872-4a68-a245-0686c8945822")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -6281,7 +6638,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R8"
-			(at 12 0 90)
+			(at 10 -1.5 180)
 			(layer "F.SilkS")
 			(uuid "d6d78e40-3deb-47dc-8538-9554c8c23245")
 			(effects
@@ -6326,7 +6683,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6338,7 +6695,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/e2533196-cf0a-4527-873e-7e9f23ed0b81")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -6597,7 +6956,7 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer, US symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6609,7 +6968,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Potentiometer*")
 		(path "/cd7178ae-bf55-417a-aa64-aca9ee3346df")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -6919,7 +7280,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6931,7 +7292,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/08d2ab11-ee40-4384-87bf-fe99ecc5b9ec")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -7144,7 +7507,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R10"
-			(at 13 -0.1 0)
+			(at 12.58 0 0)
 			(layer "F.SilkS")
 			(uuid "62673d64-be31-486c-8286-7fc8579e9c41")
 			(effects
@@ -7189,7 +7552,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7201,7 +7564,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/060bf435-26ef-4cb3-b314-07de2fcc725d")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -7459,7 +7824,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, symbol, four pins"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7472,6 +7837,7 @@
 			)
 		)
 		(path "/96d4ea43-49bb-46ae-890e-51cd1c9209c0")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -7629,7 +7995,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R1"
-			(at 3 2 0)
+			(at 10.08 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "dfa55564-4e6e-4588-b525-459094617587")
 			(effects
@@ -7674,7 +8040,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7686,7 +8052,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/cbbedbbe-5581-41a1-9851-202f8dd94322")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -7944,7 +8312,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7956,7 +8324,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/62e6b022-36b9-4012-bc56-42ce79ba40ff")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -8174,7 +8544,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8186,7 +8556,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b8e5b4e1-d0de-4558-a282-29150b6c4ffc")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -8404,7 +8776,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8416,7 +8788,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/92b90ece-dee9-4430-b516-e74a0ce76680")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -8513,7 +8887,7 @@
 		(descr "Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC12E/EC12E1240405.html & http://cdn-reichelt.de/documents/datenblatt/F100/402097STEC12E08.PDF")
 		(tags "rotary encoder")
 		(property "Reference" "SW3"
-			(at 17.5 4 90)
+			(at 17 2 180)
 			(layer "F.SilkS")
 			(uuid "040f0355-819d-49d4-a1dc-f4579c8f6516")
 			(effects
@@ -8558,7 +8932,7 @@
 				)
 			)
 		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8570,7 +8944,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "RotaryEncoder*Switch*")
 		(path "/13e874b7-eb82-4971-bbb6-0917f394165a")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -8991,7 +9367,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9003,7 +9379,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b966ea87-f3c6-4090-9ece-979ec6966094")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -9176,7 +9554,7 @@
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2.5mm^2, Capacitor")
 		(tags "C Rect series Radial pin pitch 5.00mm  length 7mm width 2.5mm Capacitor")
 		(property "Reference" "C8"
-			(at -2.5 0 90)
+			(at 7 0 180)
 			(layer "F.SilkS")
 			(uuid "e72e2a63-f4d3-41f8-a46e-8b5d410876bd")
 			(effects
@@ -9221,7 +9599,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9233,7 +9611,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/15ae08ab-010d-48db-a4e5-caf71be5a7ed")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -9451,7 +9831,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9463,7 +9843,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/88d101b3-c54c-4198-bad7-e6dcec8ab895")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -9676,7 +10058,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R11"
-			(at 13 0 0)
+			(at 12.08 0 0)
 			(layer "F.SilkS")
 			(uuid "d258e76c-8f96-4a5a-8bee-b7fd69fda455")
 			(effects
@@ -9721,7 +10103,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9733,7 +10115,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/17746029-43c5-4b4c-99a4-ffaf8933b94f")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -9991,7 +10375,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10003,7 +10387,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/ca5b8dbe-934b-45ba-81cf-211f6b6a95ac")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -10092,6 +10478,161 @@
 			)
 		)
 	)
+	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(layer "F.Cu")
+		(uuid "d57c93a6-a2b4-4e68-b4f9-6ac7ecd70f57")
+		(at 169 72.9)
+		(descr "Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.25sqmm")
+		(property "Reference" "J2"
+			(at 0 -2.2 0)
+			(layer "F.SilkS")
+			(uuid "a58e6752-776d-49e4-a912-9e38491f5a5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "fsw pin 1"
+			(at 0 2.2 0)
+			(layer "F.Fab")
+			(uuid "d7c325c2-4b97-45e2-a328-2a2b217a9e88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6bac6b8-425e-47a3-8711-510203037ab5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b8648bf-eda7-4deb-bbb6-74bdb9b5f5a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5c4e148-3ba4-454a-9434-4358594ccaba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/8b254f06-96cb-4677-81de-9a08f29c0cb5")
+		(sheetname "Root")
+		(sheetfile "podal_1590b.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.75 -1.5)
+			(end -1.75 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "003d4cf0-15f1-4932-90e4-8dfabb07e6fd")
+		)
+		(fp_line
+			(start -1.75 1.5)
+			(end 1.75 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a055a884-8dbd-478f-b9c1-7e5d200e0d20")
+		)
+		(fp_line
+			(start 1.75 -1.5)
+			(end -1.75 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4afd026d-64b0-4e0d-9f76-b3658f77e903")
+		)
+		(fp_line
+			(start 1.75 1.5)
+			(end 1.75 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1fe5c135-69a8-4aac-8434-6a9b91c87adf")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "ecb1f071-05e9-4a83-8284-b4156e82dc26")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "f0ae0f27-5b13-4686-aac4-fe29bdbd6066")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 2 2)
+			(drill 0.85)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.125)
+			(net 64 "Net-(J2-Pin_1)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "0ceda5b7-2717-4c4c-b832-7f1213ffa312")
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "d843117d-d989-45d6-be79-1a0717a016ac")
@@ -10144,7 +10685,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10156,7 +10697,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/266131e6-21f0-47e7-98a5-6d2d621daa42")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -10414,7 +10957,7 @@
 				)
 			)
 		)
-		(property "Description" "Single-cell battery"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10427,6 +10970,7 @@
 			)
 		)
 		(path "/48f578c9-6683-4056-a32b-d61ce6cae2da")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -10584,7 +11128,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R17"
-			(at 5.08 -2.37 90)
+			(at 1.406714 1.460135 180)
 			(layer "F.SilkS")
 			(uuid "a65354e6-e736-4dfe-b8ec-7d0432f3f7e8")
 			(effects
@@ -10629,7 +11173,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10641,7 +11185,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/7e448723-4af5-4341-a53a-ccdd37838ca3")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -10854,7 +11400,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R15"
-			(at 10.438488 -1.912709 90)
+			(at 11.743604 -0.078672 180)
 			(layer "F.SilkS")
 			(uuid "e5e07912-57b4-4649-a280-6d0f287c686d")
 			(effects
@@ -10899,7 +11445,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10911,7 +11457,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/dc124ba2-05ea-4018-a581-b26e873a2691")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -11124,7 +11672,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R21"
-			(at -1.92 0 90)
+			(at 0.16 1.5 180)
 			(layer "F.SilkS")
 			(uuid "3639185f-b47f-47a6-b194-e0045cab5451")
 			(effects
@@ -11169,7 +11717,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11181,7 +11729,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/f8f19f8c-7205-4ea1-9234-caa502369941")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -11439,7 +11989,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11451,7 +12001,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/2a5010d1-8faa-46d1-b4d3-b43efd4d6410")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -11624,7 +12176,7 @@
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
 		(property "Reference" "U1"
-			(at 3.81 -1.39 0)
+			(at 3.81 0.566294 0)
 			(layer "F.SilkS")
 			(uuid "7303d48c-12ae-4a72-a4d4-a8f16707c8a2")
 			(effects
@@ -11657,7 +12209,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11669,7 +12221,7 @@
 				)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11681,7 +12233,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*")
 		(path "/7d974223-ffed-47c7-b3e8-5717cb48f090")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -12095,7 +12649,7 @@
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2.5mm^2, Capacitor")
 		(tags "C Rect series Radial pin pitch 5.00mm  length 7mm width 2.5mm Capacitor")
 		(property "Reference" "C2"
-			(at -2.525862 -0.112069 0)
+			(at -2.337149 0.428426 0)
 			(layer "F.SilkS")
 			(uuid "9d478898-4cd4-49e8-84e9-1abe25b4853f")
 			(effects
@@ -12140,7 +12694,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12152,7 +12706,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/d7a9aa38-95c1-4d38-a5be-0b234b68f0d6")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -12318,6 +12874,158 @@
 			)
 		)
 	)
+	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(layer "F.Cu")
+		(uuid "f80e170c-0faf-443f-9021-753e50fedb66")
+		(at 169 68.85)
+		(descr "Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.25sqmm")
+		(property "Reference" "J1"
+			(at 0 -2.2 0)
+			(layer "F.SilkS")
+			(uuid "acb3bffa-d866-4020-9f54-7c1e69f787a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Guitar in"
+			(at 0 2.2 0)
+			(layer "F.Fab")
+			(uuid "f471c8d3-6ff3-4c19-a395-af497189a176")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f537585-5ede-4b28-918d-076f94c8ad7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2d60cf9-8250-4163-8165-9528fa73d4bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e0a6ed3-2d28-441a-a6e0-c89068c208aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "Jack*")
+		(path "/c1b7ef94-85d1-48d2-adb8-906c2bc50764")
+		(sheetname "Root")
+		(sheetfile "podal_1590b.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.75 -1.5)
+			(end -1.75 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f417b53b-9d32-4b9c-8d9d-96cddc1bbe8a")
+		)
+		(fp_line
+			(start -1.75 1.5)
+			(end 1.75 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2fe9f80a-02de-472f-8b5b-aeee5d9e8ce4")
+		)
+		(fp_line
+			(start 1.75 -1.5)
+			(end -1.75 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ed9ba855-2269-4f04-9505-65af32b1aa12")
+		)
+		(fp_line
+			(start 1.75 1.5)
+			(end 1.75 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f3a944a1-3718-4425-a9c6-e7697ccfce9d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "6f2dac8c-0ce5-4d58-b6b0-3db4203ee9d3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "8e886304-023e-4220-a247-061eb286f655")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 2 2)
+			(drill 0.85)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.125)
+			(uuid "ac6e1f3d-a5b7-4355-b5f1-44c63ab25c41")
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x02_P4mm_D0.5mm_OD1.5mm"
 		(layer "F.Cu")
 		(uuid "fc89ab6f-e536-4d31-af5b-3878cdfce5bb")
@@ -12325,7 +13033,7 @@
 		(descr "Soldered wire connection, for 2 times 0.15 mm² wires, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.15sqmm")
 		(property "Reference" "SW2"
-			(at 2 -2.05 180)
+			(at 2 1.707141 180)
 			(layer "F.SilkS")
 			(uuid "0c41bd16-a5c9-48a2-8a9a-4d362555deb7")
 			(effects
@@ -12370,7 +13078,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, symbol, four pins"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12383,6 +13091,7 @@
 			)
 		)
 		(path "/3ec0298d-0210-4419-94f2-0f37c95391ec")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -12540,7 +13249,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R6"
-			(at 9.523357 1.417704 0)
+			(at -1.7925 -0.389742 0)
 			(layer "F.SilkS")
 			(uuid "5a568613-4867-4ee4-9a1e-d55a8c3a46de")
 			(effects
@@ -12585,7 +13294,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12597,7 +13306,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/5b31414c-894c-4ed8-bf75-6fb785cc31f6")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -12857,7 +13568,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12869,7 +13580,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/61353237-ae67-405f-a4a8-a1127e064a7c")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_circle
@@ -12991,7 +13704,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://static1.squarespace.com/static/58d03fdc1b10e3bf442567b8/t/6227e6236f02fb68d1577146/1646781988478/Daisy_Seed_datasheet_v1.0.3.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13003,7 +13716,7 @@
 				)
 			)
 		)
-		(property "Description" "Daisy is an embedded platform for music."
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13015,7 +13728,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Electrosmith*Daisy*Seed*")
 		(path "/857e507b-7c22-4f64-809f-651d6bdb9bc3")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -13764,7 +14479,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13776,7 +14491,7 @@
 				)
 			)
 		)
-		(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13788,7 +14503,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO?92*")
 		(path "/619e4f16-2663-4642-835d-24cbb7f228be")
+		(sheetname "Root")
 		(sheetfile "podal_1590b.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -14006,7 +14723,7 @@
 		(uuid "f59b1535-d0f8-4800-bc2d-0cda160853ee")
 	)
 	(gr_text "Podal v0.3 Denis Crowdy"
-		(at 131 82 0)
+		(at 135 69 0)
 		(layer "B.SilkS")
 		(uuid "874d6562-46f9-4ad9-9e03-a1f9291a2fcd")
 		(effects
