@@ -8827,7 +8827,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide_78L05_dc"
+		(property "Footprint" "Library:TO-92_Inline_Wide_78L05_dc"
 			(at 90.805 155.575 0)
 			(effects
 				(font
