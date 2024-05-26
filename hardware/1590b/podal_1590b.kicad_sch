@@ -5867,17 +5867,6 @@
 		)
 		(uuid "1c1d46fd-0a48-4c73-8ec7-00bb2599bcc7")
 	)
-	(label "LED_2_B"
-		(at 211.201 146.939 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1ee98b76-1c93-413f-8b45-69310c91cf33")
-	)
 	(label "LED_1_G"
 		(at 133.985 105.41 180)
 		(fields_autoplaced yes)
@@ -5889,7 +5878,7 @@
 		)
 		(uuid "25e80e67-dfaf-4b1e-8416-b6ea174391ff")
 	)
-	(label "LED_2_R"
+	(label "LED_2_B"
 		(at 211.201 157.099 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5898,7 +5887,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "26ce5e88-6beb-4403-a476-7025b77daa93")
+		(uuid "3344309a-03ea-4389-8a6f-04c5e45fbfee")
 	)
 	(label "Right out"
 		(at 183.896 63.881 180)
@@ -5988,6 +5977,17 @@
 		)
 		(uuid "6b61678a-3f6e-4cd9-8dd7-eaa6de936adc")
 	)
+	(label "LED_1_R"
+		(at 211.201 121.539 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "95d9deb9-ad72-445c-8476-91303da46ded")
+	)
 	(label "Left in"
 		(at 120.65 82.55 180)
 		(fields_autoplaced yes)
@@ -5998,6 +5998,17 @@
 			(justify right bottom)
 		)
 		(uuid "a579e20a-9b26-4fab-858a-3aa9ce2c21e6")
+	)
+	(label "LED_1_B"
+		(at 211.201 131.699 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a677d6a6-5fe0-433e-8a20-19be5092cc1b")
 	)
 	(label "ENC_CLICK"
 		(at 199.39 90.17 0)
@@ -6032,6 +6043,17 @@
 		)
 		(uuid "bf08ed4a-2a09-4a32-8a54-c08ba56020e8")
 	)
+	(label "LED_2_R"
+		(at 211.201 146.939 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c199d665-2c8d-4f63-9d59-a4847f73e12a")
+	)
 	(label "LED_1_G"
 		(at 211.201 126.619 180)
 		(fields_autoplaced yes)
@@ -6065,17 +6087,6 @@
 		)
 		(uuid "d01e7112-4196-4231-ba9b-87831f301382")
 	)
-	(label "LED_1_R"
-		(at 211.201 131.699 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "db54177f-9c2b-4214-90b2-00d526e45ede")
-	)
 	(label "3v3"
 		(at 100.33 102.87 0)
 		(fields_autoplaced yes)
@@ -6086,17 +6097,6 @@
 			(justify left bottom)
 		)
 		(uuid "faf7febb-a057-4137-9b69-3034153581c5")
-	)
-	(label "LED_1_B"
-		(at 211.201 121.539 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fd7d9153-1042-4565-b599-7adf154b6d6a")
 	)
 	(symbol
 		(lib_id "power:GND")
