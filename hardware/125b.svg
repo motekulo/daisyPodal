@@ -25,7 +25,7 @@
      showgrid="false"
      inkscape:zoom="0.96285239"
      inkscape:cx="315.20927"
-     inkscape:cy="123.07182"
+     inkscape:cy="288.20617"
      inkscape:window-width="1920"
      inkscape:window-height="1016"
      inkscape:window-x="0"
@@ -38,7 +38,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="board svg"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <g
        id="surface37690"
@@ -4389,7 +4389,8 @@
      inkscape:label="drill marks 1"
      inkscape:groupmode="layer"
      id="layer1"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <rect
        style="fill:none;stroke:#000018;stroke-width:1.23841;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
        id="rect31"
