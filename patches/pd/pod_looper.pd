@@ -23,12 +23,12 @@
 #X msg 875 212 0, f 3;
 #X obj 873 84 bng 25 250 50 0 empty empty empty 17 7 0 10 #e4e4e4 #4d4d4d #373737;
 #X obj 331 477 /;
-#X msg 331 419 1000;
+#X msg 331 412 1000;
 #X obj 481 248 bng 25 250 50 0 empty empty empty 17 7 0 10 #e4e4e4 #4d4d4d #373737;
 #X obj 511 248 bng 25 250 50 0 empty empty empty 17 7 0 10 #e4e4e4 #4d4d4d #373737;
 #X obj 423 477 * 48;
-#X floatatom 511 628 12 0 0 0 - - - 24;
-#X floatatom 375 628 8 0 0 0 - - - 24;
+#X floatatom 439 673 8 0 0 0 - - - 24;
+#X floatatom 306 673 8 0 0 0 - - - 24;
 #X obj 903 304 float, f 5;
 #X obj 874 130 tgl 23 0 empty empty empty 17 7 0 10 #e4e4e4 #4d4d4d #373737 0 1;
 #X obj 873 174 select 1, f 7;
@@ -37,10 +37,10 @@
 #X text 911 83 Pause/ play;
 #X text 705 17 Reset;
 #X obj 481 347 t b f;
-#X obj 398 568 s samples;
+#X obj 351 554 s samples;
 #X obj 893 401 r samples;
 #X obj 705 44 r EncSwitch @hv_param;
-#X obj 137 72 table buffer 480000;
+#X obj 163 44 table buffer 480000;
 #X obj 705 191 s buffer;
 #X obj 179 326 tabwrite~ buffer;
 #X msg 659 292 0;
@@ -51,7 +51,7 @@
 #X obj 770 514 s~ bufferread;
 #X obj 365 288 r~ bufferread;
 #X obj 659 44 bng 25 250 50 0 empty empty empty 17 7 0 10 #e4e4e4 #4d4d4d #373737;
-#X obj 306 558 s freq;
+#X obj 267 554 s freq;
 #X obj 961 267 r freq;
 #X obj 616 160 s resetfreq;
 #X obj 604 185 s resetphase;
@@ -64,7 +64,6 @@
 #X obj 871 467 tabread~ buffer;
 #X obj 608 387 s led1_blue @hv_param;
 #X msg 1019 192 0 \, 1;
-#X obj 956 662 line~;
 #X connect 0 0 2 0;
 #X connect 1 0 11 0;
 #X connect 2 0 43 0 32.................Z.....5+++uF....f9+++OC....;
@@ -78,9 +77,9 @@
 #X connect 10 0 43 0 32.................zA....A....c....P....rL....;
 #X connect 11 0 12 0;
 #X connect 12 0 25 0;
-#X connect 12 0 0 0 32.................T....Py+++OE....z7+++eB....;
 #X connect 12 0 48 0 32.................1....HQ...fM....RD...PG....;
 #X connect 12 0 47 0 32.................k....7G...PI....+A...DG....;
+#X connect 12 0 0 0 32.................X....Py+++OF....z7+++eB....;
 #X connect 12 1 26 0;
 #X connect 12 1 17 0 32.................M....3z+++eC....N8+++eB....;
 #X connect 12 1 44 0 32.................t....HI...fK....RB...DG....;

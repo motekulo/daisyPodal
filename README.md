@@ -7,8 +7,9 @@ The idea is to have a guitar pedal that will run patches prototyped on a Daisy P
 ## Thanks
 
 - For hardware thanks to work on the Dasiy Petal, the Terrarium and the work of  [Keith Shepherd](https://github.com/bkshepherd) 
-- Graham Wakefield and Gregory Taylor for [Generating Sound and Organizing Time](https://cycling74.com/books/go). 
-- Timothy Schoen for Plugdata
+- Timothy Schoen and other developers (Alex Mitchell, for example) for Plugdata
+- Wasted Audio for the [Heavy hvcc compiler](https://wasted-audio.github.io/hvcc/)
+- Graham Wakefield and Gregory Taylor for [Generating Sound and Organizing Time](https://cycling74.com/books/go)
 
 ## Things to do - v0.2 to 0.3
 
