@@ -11,7 +11,7 @@ The idea is to have a guitar pedal that will run patches prototyped on a Daisy P
 - Wasted Audio for the [Heavy hvcc compiler](https://wasted-audio.github.io/hvcc/)
 - Graham Wakefield and Gregory Taylor for [Generating Sound and Organizing Time](https://cycling74.com/books/go)
 
-## Things to do - v0.2 to 0.3
+## Things to do - v0.3 to 0.4
 
 - J1-8 labels can go on back of board as well
 - fix encoder pins (currently the wrong way around)
@@ -22,5 +22,5 @@ The idea is to have a guitar pedal that will run patches prototyped on a Daisy P
 SMD version as well as through hole.
 
 ## About me
-I'm a musician/ academic - https://researchers.mq.edu.au/en/persons/denis-crowdy, https://codemusic.studio
+I'm a musician/ lecturer - https://researchers.mq.edu.au/en/persons/denis-crowdy, https://codemusic.studio
 
