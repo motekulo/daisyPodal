@@ -14993,7 +14993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NRJ6HF-1-AU_Horizontal"
 			(at 22.86 26.67 0)
 			(effects
 				(font
