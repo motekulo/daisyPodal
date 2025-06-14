@@ -18,6 +18,12 @@ The idea is to have a guitar pedal that will run patches prototyped on a Daisy P
 - fix schematic connection between pins 1 and 2 of TL074
 - increase width of board, and bevel corners to fit in enclosure
 
+## Videos
+
+[Version 0.3 with a distortion patch](https://youtu.be/5CY0gC0ThXo)
+[Version 0.3 with a delay/ looper patch](https://youtu.be/q5X9XX3Vkqw)
+
+
 ## Roadmap
 SMD version as well as through hole.
 
