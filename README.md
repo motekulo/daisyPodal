@@ -20,8 +20,9 @@ The idea is to have a guitar pedal that will run patches prototyped on a Daisy P
 
 ## Videos
 
-[Version 0.3 with a distortion patch](https://youtu.be/5CY0gC0ThXo)
 [Version 0.3 with a delay/ looper patch](https://youtu.be/q5X9XX3Vkqw)
+
+[Version 0.3 with a distortion patch](https://youtu.be/5CY0gC0ThXo)
 
 
 ## Roadmap
