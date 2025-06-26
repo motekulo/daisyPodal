@@ -4030,7 +4030,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "/home/dcrowdy/working/daisyPodal/hardware/3dmodels/rk09k1130a6s.stp"
+		(model "/Users/dcrowdy/working/daisyPodal/hardware/3dmodels/rk09k1130a6s.stp"
 			(offset
 				(xyz 7 -2.5 6.5)
 			)
@@ -5050,7 +5050,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "/home/dcrowdy/working/daisyPodal/hardware/3dmodels/rk09k1130a6s.stp"
+		(model "/Users/dcrowdy/working/daisyPodal/hardware/3dmodels/rk09k1130a6s.stp"
 			(offset
 				(xyz 7 -2 6)
 			)
@@ -6346,7 +6346,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "/home/dcrowdy/working/daisyPodal/hardware/3dmodels/ec12e24204a2.stp"
+		(model "/Users/dcrowdy/working/daisyPodal/hardware/3dmodels/ec12e24204a2.stp"
 			(offset
 				(xyz 7.5 -2.5 2)
 			)
@@ -9725,6 +9725,17 @@
 				(xyz -90 -0 -0)
 			)
 		)
+		(model "/Users/dcrowdy/working/daisyPodal/hardware/3dmodels/NRJ6HF.step"
+			(offset
+				(xyz 6.5 -5.5 -0.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Module:Electrosmith_Daisy_Seed"
 		(layer "B.Cu")
@@ -10491,9 +10502,9 @@
 				(xyz -0 -0 -0)
 			)
 		)
-		(model "/home/dcrowdy/working/daisyPodal/hardware/3dmodels/ES_Daisy_Seed_Rev7-1.step"
+		(model "/Users/dcrowdy/working/daisyPodal/hardware/3dmodels/ES_Daisy_Seed_Rev7-1.step"
 			(offset
-				(xyz 16.5 1.5 6)
+				(xyz 16.5 1.5 5.5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -12541,7 +12552,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "/home/dcrowdy/working/daisyPodal/hardware/3dmodels/NRJ6HF.step"
+		(model "/Users/dcrowdy/working/daisyPodal/hardware/3dmodels/NRJ6HF.step"
 			(offset
 				(xyz 6 -5.5 0)
 			)
