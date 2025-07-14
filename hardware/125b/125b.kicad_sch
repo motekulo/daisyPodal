@@ -16373,48 +16373,6 @@
 			)
 		)
 	)
-	(sheet
-		(at 155.194 182.88)
-		(size 12.7 8.89)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "2a13ce6b-2e8e-4702-8a81-9a928df4a706")
-		(property "Sheetname" "footswitch"
-			(at 155.194 182.1684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "footswitch.kicad_sch"
-			(at 155.194 192.3546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "125b"
-				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(page "2")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "1")
