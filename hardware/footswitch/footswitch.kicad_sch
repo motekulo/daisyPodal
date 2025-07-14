@@ -438,7 +438,7 @@
 			(symbol "SW_3DPDT_0_1"
 				(polyline
 					(pts
-						(xy -8.3691 12.8804) (xy -3.6838 15.189)
+						(xy -9.0176 12.6843) (xy -2.4845 15.2282)
 					)
 					(stroke
 						(width 0)
@@ -450,7 +450,7 @@
 				)
 				(polyline
 					(pts
-						(xy -7.8656 -7.6747) (xy -3.5991 -5.1774)
+						(xy -8.9653 2.5072) (xy -2.54 5.08)
 					)
 					(stroke
 						(width 0)
@@ -462,7 +462,7 @@
 				)
 				(polyline
 					(pts
-						(xy -7.8231 2.515) (xy -3.5566 5.0123)
+						(xy -8.96 -7.6531) (xy -2.5754 -5.1331)
 					)
 					(stroke
 						(width 0)
@@ -497,7 +497,7 @@
 			)
 			(symbol "SW_3DPDT_1_1"
 				(circle
-					(center -8.8969 12.8634)
+					(center -9.5748 2.5496)
 					(radius 0.5)
 					(stroke
 						(width 0)
@@ -508,7 +508,7 @@
 					)
 				)
 				(circle
-					(center -8.3974 -7.6526)
+					(center -9.5652 12.6981)
 					(radius 0.5)
 					(stroke
 						(width 0)
@@ -519,7 +519,7 @@
 					)
 				)
 				(circle
-					(center -8.331 2.5404)
+					(center -9.5409 -7.6274)
 					(radius 0.5)
 					(stroke
 						(width 0)
@@ -530,7 +530,7 @@
 					)
 				)
 				(circle
-					(center -3.1015 -5.0821)
+					(center -1.9653 -5.0405)
 					(radius 0.5)
 					(stroke
 						(width 0)
@@ -541,7 +541,7 @@
 					)
 				)
 				(circle
-					(center -3.1015 -10.1787)
+					(center -1.9653 -10.1371)
 					(radius 0.5)
 					(stroke
 						(width 0)
@@ -552,7 +552,7 @@
 					)
 				)
 				(circle
-					(center -3.0459 5.0775)
+					(center -1.9097 5.1191)
 					(radius 0.5)
 					(stroke
 						(width 0)
@@ -563,7 +563,7 @@
 					)
 				)
 				(circle
-					(center -3.0439 10.1621)
+					(center -1.9077 10.2037)
 					(radius 0.5)
 					(stroke
 						(width 0)
@@ -574,7 +574,7 @@
 					)
 				)
 				(circle
-					(center -3.0388 15.2449)
+					(center -1.9026 15.2865)
 					(radius 0.5)
 					(stroke
 						(width 0)
@@ -585,7 +585,7 @@
 					)
 				)
 				(circle
-					(center -3.0205 -0.0076)
+					(center -1.8843 0.034)
 					(radius 0.5)
 					(stroke
 						(width 0)
