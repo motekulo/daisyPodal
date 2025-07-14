@@ -1080,6 +1080,409 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TC2050"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TC2050"
+				(at 1.27 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector:Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tag-Connect’s 10-pins connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Debug plug-of-nails"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TC2050*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TC2050_1_1"
+				(rectangle
+					(start -2.54 10.16)
+					(end 5.08 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -0.762 -8.382)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 5.08)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 8.382)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 5.08)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 3.302 -8.382)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Audio:AudioJack2"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7204,381 +7607,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_3DPDT"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "3DPDT Footswitch"
-				(at -0.254 17.526 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_3DPDT_0_1"
-				(polyline
-					(pts
-						(xy -3.2891 9.0704) (xy 1.3962 11.379)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.7856 -11.4847) (xy 1.4809 -8.9874)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.7431 -1.295) (xy 1.5234 1.2023)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 3.81)
-					(radius 0.0001)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 16.51)
-					(end -5.08 -17.78)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_3DPDT_1_1"
-				(circle
-					(center -3.8169 9.0534)
-					(radius 0.5)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -3.3174 -11.4626)
-					(radius 0.5)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -3.251 -1.2696)
-					(radius 0.5)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.9785 -8.8921)
-					(radius 0.5)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.9785 -13.9887)
-					(radius 0.5)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.0341 1.2675)
-					(radius 0.5)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.0361 6.3521)
-					(radius 0.5)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.0412 11.4349)
-					(radius 0.5)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.0595 -3.8176)
-					(radius 0.5)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -6.9497 9.0704 0)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -1.27 0)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -11.43 0)
-					(length 2.54)
-					(name "F"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 11.43 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 6.35 180)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 1.27 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -3.81 180)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -8.89 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -13.97 180)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_DIP_x02"
 			(pin_names
 				(offset 0)
@@ -8528,16 +8556,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 93.98) (xy 38.1 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e7ad975-f268-41ed-b640-e8a1a19d740f")
-	)
-	(wire
-		(pts
 			(xy 73.66 179.07) (xy 73.66 190.5)
 		)
 		(stroke
@@ -8618,16 +8636,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 88.9) (xy 38.1 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ed0cce5-b58b-4736-a341-f485ba59755a")
-	)
-	(wire
-		(pts
 			(xy 264.16 33.02) (xy 264.16 36.83)
 		)
 		(stroke
@@ -8655,16 +8663,6 @@
 			(type default)
 		)
 		(uuid "25a727e9-ba54-4bac-8a75-c146dc96cc76")
-	)
-	(wire
-		(pts
-			(xy 15.24 106.68) (xy 21.59 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28341bb2-456e-4444-9ac8-992a9c28a4fd")
 	)
 	(wire
 		(pts
@@ -8805,16 +8803,6 @@
 			(type default)
 		)
 		(uuid "3cf1cb3e-66a9-4cf4-ab24-420d50f32e75")
-	)
-	(wire
-		(pts
-			(xy 33.02 99.06) (xy 38.1 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d008bfa-0973-4968-a607-d7ae61aa52ed")
 	)
 	(wire
 		(pts
@@ -9015,16 +9003,6 @@
 			(type default)
 		)
 		(uuid "5fc9c65d-4513-4321-addf-4817d664d617")
-	)
-	(wire
-		(pts
-			(xy 15.24 96.52) (xy 21.59 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6222667a-d2da-44ed-b788-947805f1a620")
 	)
 	(wire
 		(pts
@@ -9428,16 +9406,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 104.14) (xy 38.1 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b29ce794-9bef-4160-8b86-7649707ad158")
-	)
-	(wire
-		(pts
 			(xy 96.52 137.16) (xy 93.98 137.16)
 		)
 		(stroke
@@ -9555,16 +9523,6 @@
 			(type default)
 		)
 		(uuid "cde004d9-17e4-40e9-bc95-41805b1a3653")
-	)
-	(wire
-		(pts
-			(xy 33.02 83.82) (xy 38.1 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceda62fb-639c-4e1d-9908-60026cb8772b")
 	)
 	(wire
 		(pts
@@ -9748,16 +9706,6 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 86.36) (xy 20.32 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5bc12be-d9f1-466a-b211-50620d53bebc")
-	)
-	(wire
-		(pts
 			(xy 120.65 184.15) (xy 120.65 190.5)
 		)
 		(stroke
@@ -9796,16 +9744,6 @@
 		)
 		(uuid "fe4ba615-04e7-4f82-98dc-17fd920c61d6")
 	)
-	(wire
-		(pts
-			(xy 33.02 109.22) (xy 38.1 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffe2f094-e5f3-4ef4-ac9a-a44500a23dce")
-	)
 	(label "VCC"
 		(at 160.02 60.96 0)
 		(effects
@@ -9815,16 +9753,6 @@
 			(justify left bottom)
 		)
 		(uuid "0000c29a-16e4-4586-9c3f-3598c28e56f2")
-	)
-	(label "fsw8"
-		(at 38.1 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "06072c4b-deed-4075-93e6-133a348532f0")
 	)
 	(label "3v3"
 		(at 229.87 152.4 0)
@@ -9936,16 +9864,6 @@
 		)
 		(uuid "34e12b69-ded5-4687-a96d-bcdea54acd0e")
 	)
-	(label "fsw1"
-		(at 38.1 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3515335b-04a5-479d-b875-668539dd2881")
-	)
 	(label "LED_2_G"
 		(at 212.09 152.4 180)
 		(effects
@@ -9955,26 +9873,6 @@
 			(justify right bottom)
 		)
 		(uuid "3c3648b1-445a-46dc-b1fd-bc1259ed68d0")
-	)
-	(label "fsw4"
-		(at 15.24 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3f5120d8-c059-4de7-acef-c24c9d212b5e")
-	)
-	(label "fsw9"
-		(at 38.1 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4e642e9a-e470-47a9-a608-f8e7f37ab00b")
 	)
 	(label "fsw4"
 		(at 245.11 95.25 0)
@@ -10086,16 +9984,6 @@
 		)
 		(uuid "768021e1-506a-4012-94fe-a5e5dbaf1175")
 	)
-	(label "fsw6"
-		(at 15.24 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7aa40901-c0b2-4194-a5d8-c411a690610b")
-	)
 	(label "fsw5"
 		(at 48.26 182.88 0)
 		(effects
@@ -10115,26 +10003,6 @@
 			(justify right bottom)
 		)
 		(uuid "95d9deb9-ad72-445c-8476-91303da46ded")
-	)
-	(label "fsw5"
-		(at 15.24 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "95f5391f-239c-4156-98ff-9bb6af7d4082")
-	)
-	(label "fsw7"
-		(at 38.1 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a0ea098e-9436-4ec1-9a97-99eba52d8393")
 	)
 	(label "Left in"
 		(at 120.65 82.55 180)
@@ -10216,16 +10084,6 @@
 		)
 		(uuid "c199d665-2c8d-4f63-9d59-a4847f73e12a")
 	)
-	(label "fsw2"
-		(at 38.1 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c3b17aa8-91d2-4dc8-abfb-dbfded11046c")
-	)
 	(label "LED_1_G"
 		(at 212.09 127 180)
 		(effects
@@ -10245,16 +10103,6 @@
 			(justify right bottom)
 		)
 		(uuid "c7b80e49-bc17-4975-b2dc-8dba4dd9d589")
-	)
-	(label "fsw3"
-		(at 38.1 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cd4cee62-259c-4956-ad68-c3720cf59bbf")
 	)
 	(label "3v3"
 		(at 229.87 127 0)
@@ -11106,6 +10954,98 @@
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TC2050")
+		(at 260.35 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22c37339-4ae1-42e8-add9-730af229466b")
+		(property "Reference" "J2"
+			(at 261.62 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TC2050"
+			(at 261.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
+			(at 261.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf"
+			(at 261.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tag-Connect’s 10-pins connector"
+			(at 260.35 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e541bd8e-6c33-4840-ae7d-45d0424c9c43")
+		)
+		(pin "6"
+			(uuid "1a810a7d-918f-44da-a0f3-661798cfb4e0")
+		)
+		(pin "2"
+			(uuid "5693747a-2390-4888-94e0-a941e20d76ad")
+		)
+		(pin "10"
+			(uuid "42f80d38-2a38-48af-9907-d62deb0bd978")
+		)
+		(pin "9"
+			(uuid "146ba1a2-15ef-4fde-a95e-5a1151e502b3")
+		)
+		(pin "8"
+			(uuid "5efd9fa7-3a56-4665-ba49-0c944de31b2e")
+		)
+		(pin "7"
+			(uuid "12f071c2-f612-4f06-8257-412cd0807c2d")
+		)
+		(pin "5"
+			(uuid "8ba7cf78-690f-4d95-a9ab-39e2c8e5cc98")
+		)
+		(pin "4"
+			(uuid "7c21faba-bc4c-4027-89b7-b114c3c2a1e0")
+		)
+		(pin "3"
+			(uuid "dffaef1b-610b-4871-89ae-d843785635e0")
+		)
+		(instances
+			(project ""
+				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -16433,91 +16373,44 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Switch:SW_3DPDT")
-		(at 27.94 95.25 0)
-		(unit 1)
+	(sheet
+		(at 155.194 182.88)
+		(size 12.7 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ff2d0d29-391f-4238-bcf1-fcd91d57203e")
-		(property "Reference" "3DPDT Footswitch1"
-			(at 27.305 74.93 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2a13ce6b-2e8e-4702-8a81-9a928df4a706")
+		(property "Sheetname" "footswitch"
+			(at 155.194 182.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 27.305 77.47 0)
+		(property "Sheetfile" "footswitch.kicad_sch"
+			(at 155.194 192.3546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
-		)
-		(property "Footprint" ""
-			(at 27.94 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 27.94 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "614cf6cb-52f9-40ab-b110-9bb272d99149")
-		)
-		(pin "5"
-			(uuid "3746b09c-5e9a-481b-8316-94bcd582c3b6")
-		)
-		(pin "6"
-			(uuid "b1cc5eaf-a68e-471e-ac97-56b5e62a4194")
-		)
-		(pin "1"
-			(uuid "c3c14033-2923-4974-983d-cd38cb979a7f")
-		)
-		(pin "7"
-			(uuid "82bd5053-25f5-4c21-8da8-e914ed8d7568")
-		)
-		(pin "2"
-			(uuid "5c21c67a-59d3-4612-b7b6-f94b5e8b7059")
-		)
-		(pin "8"
-			(uuid "7f77eea8-8d4f-4661-b9cd-19feb8f9934f")
-		)
-		(pin "3"
-			(uuid "28c9976e-b0ab-47b3-9ce6-e83b2a0ad03d")
-		)
-		(pin "9"
-			(uuid "955d5983-b8e8-4458-aed4-4da9c0bab559")
 		)
 		(instances
-			(project ""
+			(project "125b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "3DPDT Footswitch1")
-					(unit 1)
+					(page "2")
 				)
 			)
 		)
