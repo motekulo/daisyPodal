@@ -10760,7 +10760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm"
+		(property "Footprint" "Project:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm"
 			(at 63.5 129.794 0)
 			(effects
 				(font
@@ -11242,7 +11242,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 139.7 41.91 0)
 			(effects
 				(font
@@ -11691,7 +11691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 121.92 173.99 0)
 			(effects
 				(font
@@ -11931,7 +11931,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "Project:Potentiometer_Alps_RK09K_Single_Vertical"
 			(at 100.33 95.25 0)
 			(effects
 				(font
@@ -12141,7 +12141,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 231.14 30.48 0)
 			(effects
 				(font
@@ -12428,7 +12428,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5440ed0a-bb41-4e94-b6cb-2ac2e8ec67ae")
 		(property "Reference" "J4"
 			(at 275.59 97.7899 0)
@@ -12439,8 +12438,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "NRJ6HF"
-			(at 275.59 100.3299 0)
+		(property "Value" "Guitar out"
+			(at 274.32 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12448,7 +12447,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NRJ6HF_Horizontal"
+		(property "Footprint" "Library:Jack_6.35mm_Neutrik_NRJ6HF-1-AU_Horizontal"
 			(at 267.97 100.33 0)
 			(effects
 				(font
@@ -13291,7 +13290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 92.71 50.8 0)
 			(effects
 				(font
@@ -13671,7 +13670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:Electrosmith_Daisy_Seed"
+		(property "Footprint" "Library:Electrosmith_Daisy_Seed"
 			(at 181.61 140.97 0)
 			(effects
 				(font
@@ -14846,7 +14845,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 232.41 64.77 0)
 			(effects
 				(font
@@ -15292,7 +15291,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NRJ6HF-1-AU_Horizontal"
+		(property "Footprint" "Library:Jack_6.35mm_Neutrik_NRJ6HF-1-AU_Horizontal"
 			(at 22.86 26.67 0)
 			(effects
 				(font
@@ -15635,7 +15634,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "Project:Potentiometer_Alps_RK09K_Single_Vertical"
 			(at 81.28 110.49 0)
 			(effects
 				(font
