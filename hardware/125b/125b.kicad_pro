@@ -466,7 +466,10 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Project",
+      "Connector_PinSocket_1.27mm"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {

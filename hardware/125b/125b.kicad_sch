@@ -10551,7 +10551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB"
+		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Wide_Pins"
 			(at 224.79 128.27 0)
 			(effects
 				(font
@@ -12593,7 +12593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB"
+		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Wide_Pins"
 			(at 224.79 153.67 0)
 			(effects
 				(font
