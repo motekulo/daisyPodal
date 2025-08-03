@@ -12915,5 +12915,27 @@
 			(justify left bottom mirror)
 		)
 	)
+	(zone
+		(net 20)
+		(net_name "GND")
+		(layers "F.Cu" "B.Cu")
+		(uuid "816f7050-d403-4053-a39e-6de8da85c1da")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.4)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 150 35.75) (xy 156.5 42.25) (xy 156.5 109.25) (xy 156.25 109.5) (xy 98.5 109.5) (xy 98.5 42)
+				(xy 104.75 35.75)
+			)
+		)
+	)
 	(embedded_fonts no)
 )
