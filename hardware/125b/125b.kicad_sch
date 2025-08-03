@@ -9166,7 +9166,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 153.67) (xy 30.48 153.67)
+			(xy 29.21 153.67) (xy 33.02 153.67)
 		)
 		(stroke
 			(width 0)
@@ -9433,6 +9433,16 @@
 			(type default)
 		)
 		(uuid "a66af589-dce5-4117-adad-5b022098733d")
+	)
+	(wire
+		(pts
+			(xy 19.05 153.67) (xy 21.59 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a67afe9b-26d0-4f03-b64d-7ca8dcda47b2")
 	)
 	(wire
 		(pts
@@ -10125,7 +10135,7 @@
 		(uuid "6b61678a-3f6e-4cd9-8dd7-eaa6de936adc")
 	)
 	(label "fsw2"
-		(at 30.48 153.67 0)
+		(at 33.02 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10323,6 +10333,161 @@
 			(justify left bottom)
 		)
 		(uuid "faf7febb-a057-4137-9b69-3034153581c5")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 53.34 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "025d68b9-2a53-47f0-ab11-e729c366c02f")
+		(property "Netclass" "Power"
+			(at 54.0385 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 111.76 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1794e9c6-e5bc-4812-9db0-51ebabe366e8")
+		(property "Netclass" "Power"
+			(at 112.4585 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 31.75 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26a13ce2-3f58-4ccb-8cbf-ab469c1491df")
+		(property "Netclass" "Power"
+			(at 32.4485 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -45.72 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 20.32 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9976326-8aa5-47df-8eca-400f90ab3afe")
+		(property "Netclass" "Power"
+			(at 21.0185 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -57.15 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 27.94 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff72b56c-51de-468d-810e-857d659353a6")
+		(property "Netclass" "Power"
+			(at 28.6385 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -168.91 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_name "GND_15")
@@ -14265,16 +14430,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 22.86 153.67 180)
+		(at 25.4 153.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9212e5b8-58f9-4f46-89ec-6b9e51ac9386")
 		(property "Reference" "D1"
-			(at 24.4475 146.05 0)
+			(at 29.5275 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14282,7 +14446,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 24.4475 148.59 0)
+			(at 29.5275 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14290,7 +14454,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
-			(at 22.86 153.67 0)
+			(at 25.4 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14299,7 +14463,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 153.67 0)
+			(at 25.4 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14308,7 +14472,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 22.86 153.67 0)
+			(at 25.4 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14317,7 +14481,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 22.86 153.67 0)
+			(at 25.4 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
