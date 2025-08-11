@@ -1,6 +1,6 @@
-# daisyPodal
+# Crouds
 
-The idea is to have a guitar pedal that will run patches prototyped on a Daisy Pod. I've started with making it through hole and accessible to build.
+A guitar pedal that will run patches prototyped on a Daisy Pod. I've started with making it through hole and accessible to build.
 
 [Here's a demo](https://www.youtube.com/watch?v=Z1YsjiImZnQ) of some of the early effects and overall idea.
 
