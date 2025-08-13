@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Podal")
-		(date "2025-06-09")
-		(rev "0.4")
+		(date "2025-08-03")
+		(rev "0.5")
 	)
 	(lib_symbols
 		(symbol "+5V_1"
@@ -2241,189 +2241,6 @@
 					(at 0 -3.81 90)
 					(length 3.302)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8463,6 +8280,12 @@
 		(uuid "899ea0d3-365a-4333-a26b-e96812f6a185")
 	)
 	(junction
+		(at 19.05 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1862d53-306d-4c36-b505-ad08fb3d1baa")
+	)
+	(junction
 		(at 264.16 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8473,12 +8296,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d18adc82-c1ae-4923-8bc9-4bb29fb67933")
-	)
-	(junction
-		(at 19.05 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7f5e7fd-6cf9-4f62-8902-64fa877f0a52")
 	)
 	(junction
 		(at 83.82 50.8)
@@ -9166,16 +8983,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 153.67) (xy 33.02 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74842bf8-481b-4dc0-ae20-6c1fe2d2e6e5")
-	)
-	(wire
-		(pts
 			(xy 43.18 161.29) (xy 44.45 161.29)
 		)
 		(stroke
@@ -9436,16 +9243,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 153.67) (xy 21.59 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a67afe9b-26d0-4f03-b64d-7ca8dcda47b2")
-	)
-	(wire
-		(pts
 			(xy 133.35 52.07) (xy 148.59 52.07)
 		)
 		(stroke
@@ -9593,6 +9390,16 @@
 			(type default)
 		)
 		(uuid "c9d444f6-d94d-4a9a-8cfe-a4542594f968")
+	)
+	(wire
+		(pts
+			(xy 19.05 156.21) (xy 19.05 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc96b15f-3d61-450c-ac0a-b4651720f8ae")
 	)
 	(wire
 		(pts
@@ -10135,7 +9942,7 @@
 		(uuid "6b61678a-3f6e-4cd9-8dd7-eaa6de936adc")
 	)
 	(label "fsw2"
-		(at 33.02 153.67 0)
+		(at 19.05 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10388,68 +10195,6 @@
 		)
 		(property "Component Class" ""
 			(at -1.27 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 31.75 153.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "26a13ce2-3f58-4ccb-8cbf-ab469c1491df")
-		(property "Netclass" "Power"
-			(at 32.4485 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -45.72 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 20.32 153.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e9976326-8aa5-47df-8eca-400f90ab3afe")
-		(property "Netclass" "Power"
-			(at 21.0185 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -57.15 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12612,7 +12357,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:Jack_6.35mm_Neutrik_NRJ6HF-1-AU_Horizontal"
+		(property "Footprint" "Project:Jack_6.35mm_Neutrik_NRJ6HF-1-AU_Horizontal"
 			(at 267.97 100.33 0)
 			(effects
 				(font
@@ -12972,7 +12717,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:TO-92_Inline_Wide_78L05_dc"
+		(property "Footprint" "Project:TO-92_Inline_Wide_78L05_dc"
 			(at 90.17 155.575 0)
 			(effects
 				(font
@@ -13835,7 +13580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:Electrosmith_Daisy_Seed"
+		(property "Footprint" "Project:Electrosmith_Daisy_Seed"
 			(at 181.61 140.97 0)
 			(effects
 				(font
@@ -14423,82 +14168,6 @@
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 25.4 153.67 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9212e5b8-58f9-4f46-89ec-6b9e51ac9386")
-		(property "Reference" "D1"
-			(at 29.5275 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 29.5275 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
-			(at 25.4 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 25.4 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 25.4 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b4f7ffc-a7cd-4534-b4ae-fbabf6da5f88")
-		)
-		(pin "2"
-			(uuid "000694f4-0178-43f2-9018-c4bf54500707")
-		)
-		(instances
-			(project "podal_1590b"
-				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -15455,7 +15124,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:Jack_6.35mm_Neutrik_NRJ6HF-1-AU_Horizontal"
+		(property "Footprint" "Project:Jack_6.35mm_Neutrik_NRJ6HF-1-AU_Horizontal"
 			(at 22.86 26.67 0)
 			(effects
 				(font
@@ -15695,76 +15364,6 @@
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 19.05 157.48 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cbbedbbe-5581-41a1-9851-202f8dd94322")
-		(property "Reference" "R1"
-			(at 20.955 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 20.955 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 18.034 157.226 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 19.05 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 19.05 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22cbd6a6-6bfc-48cb-9297-292b3f2b1898")
-		)
-		(pin "2"
-			(uuid "fadb1477-235e-4b4f-b814-dd13163a3d78")
-		)
-		(instances
-			(project "podal_1590b"
-				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "R1")
 					(unit 1)
 				)
 			)
