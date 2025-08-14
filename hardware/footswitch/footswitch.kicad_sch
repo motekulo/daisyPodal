@@ -1258,7 +1258,7 @@
 		)
 		(uuid "f974c7fd-f975-4e38-9501-fa9fe29668ba")
 	)
-	(label "conn2"
+	(label "fsw2"
 		(at 138.43 95.25 0)
 		(effects
 			(font
