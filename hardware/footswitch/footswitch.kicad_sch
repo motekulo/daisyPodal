@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "3DPDT Footswitch board")
-		(date "2025-07-14")
+		(date "2025-08-14")
 		(rev "0.1")
 		(comment 1 "Denis Crowdy")
 	)
@@ -1552,7 +1552,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 173.99 97.028 90)
 			(effects
 				(font
@@ -1620,7 +1620,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Latch6.5mm_Vertical"
+		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
 			(at 199.39 97.79 0)
 			(effects
 				(font
@@ -1712,7 +1712,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
 			(at 161.29 95.25 0)
 			(effects
 				(font
