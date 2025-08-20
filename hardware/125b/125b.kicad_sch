@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Podal")
-		(date "2025-06-09")
-		(rev "0.4")
+		(date "2025-08-03")
+		(rev "0.5")
 	)
 	(lib_symbols
 		(symbol "+5V_1"
@@ -1542,7 +1542,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x01"
+		(symbol "Connector_Generic_MountingPin:Conn_02x05_Odd_Even_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1551,19 +1551,20 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 1.27 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x01"
-				(at 0 -2.54 0)
+			(property "Value" "Conn_02x05_Odd_Even_MountingPin"
+				(at 2.54 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -1584,7 +1585,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connectable mounting pin connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1602,7 +1603,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "Connector*:*_2x??-1MP*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1611,16 +1612,38 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x01_1_1"
+			(symbol "Conn_02x05_Odd_Even_MountingPin_1_1"
 				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
+					(start -1.27 6.35)
+					(end 3.81 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(rectangle
@@ -1634,8 +1657,105 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -7.112) (xy 2.286 -7.112)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 5.207)
+					(end 2.54 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 1.27 -6.731 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -1645,6 +1765,186 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -10.16 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1941,189 +2241,6 @@
 					(at 0 -3.81 90)
 					(length 3.302)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8163,10 +8280,10 @@
 		(uuid "899ea0d3-365a-4333-a26b-e96812f6a185")
 	)
 	(junction
-		(at 26.67 52.07)
+		(at 19.05 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a3cd2b36-09e4-459e-b6b6-7b4786dbe6b8")
+		(uuid "a1862d53-306d-4c36-b505-ad08fb3d1baa")
 	)
 	(junction
 		(at 264.16 33.02)
@@ -8175,10 +8292,10 @@
 		(uuid "aaacf22c-902e-4e3b-a723-7ccfcf1d4177")
 	)
 	(junction
-		(at 19.05 161.29)
+		(at 26.67 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d7f5e7fd-6cf9-4f62-8902-64fa877f0a52")
+		(uuid "d18adc82-c1ae-4923-8bc9-4bb29fb67933")
 	)
 	(junction
 		(at 83.82 50.8)
@@ -8236,6 +8353,26 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 93.98) (xy 48.26 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066ce8c5-ae51-4bed-a9b7-ff21e2e69cfb")
+	)
+	(wire
+		(pts
+			(xy 24.13 91.44) (xy 30.48 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09c73e01-79d0-4ce9-a0ed-12ed38417bfa")
+	)
+	(wire
+		(pts
 			(xy 74.93 50.8) (xy 74.93 55.88)
 		)
 		(stroke
@@ -8273,16 +8410,6 @@
 			(type default)
 		)
 		(uuid "0ec62095-a8e2-4586-8418-db0f9ef5c33b")
-	)
-	(wire
-		(pts
-			(xy 26.67 50.8) (xy 26.67 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "141ea64c-773d-483b-b7c5-e91aaf354244")
 	)
 	(wire
 		(pts
@@ -8426,6 +8553,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 52.07) (xy 26.67 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d57ed31-2007-457a-afb0-2b3d82095475")
+	)
+	(wire
+		(pts
 			(xy 86.36 60.96) (xy 101.6 60.96)
 		)
 		(stroke
@@ -8476,7 +8613,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 52.07) (xy 26.67 53.34)
+			(xy 26.67 50.8) (xy 26.67 52.07)
 		)
 		(stroke
 			(width 0)
@@ -8516,6 +8653,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 88.9) (xy 30.48 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3deb6c77-0f0a-47ba-9b4d-dbb926227556")
+	)
+	(wire
+		(pts
 			(xy 133.35 125.73) (xy 137.16 125.73)
 		)
 		(stroke
@@ -8533,16 +8680,6 @@
 			(type default)
 		)
 		(uuid "402664cb-e512-4846-bf84-af919579fca8")
-	)
-	(wire
-		(pts
-			(xy 252.73 95.25) (xy 262.89 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4133148d-4650-4e59-9144-714d5aca1a9b")
 	)
 	(wire
 		(pts
@@ -8623,6 +8760,16 @@
 			(type default)
 		)
 		(uuid "4bd2cb52-83b6-44c2-82d7-c06b7e1d94d7")
+	)
+	(wire
+		(pts
+			(xy 43.18 96.52) (xy 48.26 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c15ce40-b254-489e-98dd-289711a1b03e")
 	)
 	(wire
 		(pts
@@ -8726,6 +8873,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 99.06) (xy 30.48 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61fce3e9-d6a1-4eba-b5f8-e1cc8b488797")
+	)
+	(wire
+		(pts
 			(xy 243.84 67.31) (xy 245.11 67.31)
 		)
 		(stroke
@@ -8783,6 +8940,16 @@
 			(type default)
 		)
 		(uuid "6fc62c0a-395b-42cf-8a67-4c3508b79501")
+	)
+	(wire
+		(pts
+			(xy 24.13 96.52) (xy 30.48 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "710889c0-b9a5-4a13-ad5d-d78183c8e797")
 	)
 	(wire
 		(pts
@@ -8936,6 +9103,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 182.88) (xy 48.26 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ae702a9-2953-4f0f-be2a-3337c5aed325")
+	)
+	(wire
+		(pts
 			(xy 189.23 30.48) (xy 193.04 30.48)
 		)
 		(stroke
@@ -8946,17 +9123,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 100.33) (xy 262.89 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c4e1b35-1ca1-4471-a329-6b780c16accd")
-	)
-	(wire
-		(pts
-			(xy 264.16 33.02) (xy 265.43 33.02)
+			(xy 264.16 33.02) (xy 270.51 33.02)
 		)
 		(stroke
 			(width 0)
@@ -9066,7 +9233,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 67.31) (xy 262.89 67.31)
+			(xy 261.62 67.31) (xy 267.97 67.31)
 		)
 		(stroke
 			(width 0)
@@ -9083,6 +9250,16 @@
 			(type default)
 		)
 		(uuid "a7d76a32-5edd-4a86-be56-a989e5b4426a")
+	)
+	(wire
+		(pts
+			(xy 245.11 95.25) (xy 262.89 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afde2120-40fe-4864-a07b-fdac26c6a160")
 	)
 	(wire
 		(pts
@@ -9186,6 +9363,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 88.9) (xy 48.26 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0573121-c02c-447e-a3ed-5553e7d87080")
+	)
+	(wire
+		(pts
 			(xy 120.65 82.55) (xy 137.16 82.55)
 		)
 		(stroke
@@ -9203,6 +9390,16 @@
 			(type default)
 		)
 		(uuid "c9d444f6-d94d-4a9a-8cfe-a4542594f968")
+	)
+	(wire
+		(pts
+			(xy 19.05 156.21) (xy 19.05 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc96b15f-3d61-450c-ac0a-b4651720f8ae")
 	)
 	(wire
 		(pts
@@ -9286,6 +9483,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 100.33) (xy 262.89 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db5f520f-7d30-4d4e-869f-bb899b42dd3a")
+	)
+	(wire
+		(pts
 			(xy 100.33 99.06) (xy 100.33 102.87)
 		)
 		(stroke
@@ -9326,6 +9533,26 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 52.07) (xy 26.67 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e21fa9d3-b21c-44a7-9974-19264e8ac5a8")
+	)
+	(wire
+		(pts
+			(xy 24.13 93.98) (xy 30.48 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c6092e-b8c9-4eda-9c44-3c8abd54403c")
+	)
+	(wire
+		(pts
 			(xy 106.68 179.07) (xy 106.68 190.5)
 		)
 		(stroke
@@ -9333,6 +9560,16 @@
 			(type default)
 		)
 		(uuid "eaf13aad-47e6-4112-b8aa-1547c6c87d51")
+	)
+	(wire
+		(pts
+			(xy 43.18 91.44) (xy 48.26 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb35e2ef-ff4b-4cbb-86f5-1879ac7c9495")
 	)
 	(wire
 		(pts
@@ -9464,6 +9701,16 @@
 		)
 		(uuid "109cc5d5-5dfe-4ad5-a5e1-1e02c41a0124")
 	)
+	(label "fsw6"
+		(at 48.26 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14eb1d40-63c8-4a85-beba-6d0e49a6945f")
+	)
 	(label "Right out"
 		(at 120.65 90.17 180)
 		(effects
@@ -9514,6 +9761,16 @@
 		)
 		(uuid "25e80e67-dfaf-4b1e-8416-b6ea174391ff")
 	)
+	(label "fsw3"
+		(at 267.97 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33100d7f-573f-4bda-b684-4d9ada920c5e")
+	)
 	(label "LED_2_B"
 		(at 212.09 157.48 180)
 		(effects
@@ -9534,6 +9791,16 @@
 		)
 		(uuid "34e12b69-ded5-4687-a96d-bcdea54acd0e")
 	)
+	(label "fsw3"
+		(at 24.13 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38ff0b35-b0c0-4cf4-8546-a54b3d7bebc3")
+	)
 	(label "LED_2_G"
 		(at 212.09 152.4 180)
 		(effects
@@ -9543,6 +9810,46 @@
 			(justify right bottom)
 		)
 		(uuid "3c3648b1-445a-46dc-b1fd-bc1259ed68d0")
+	)
+	(label "fsw4"
+		(at 245.11 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51fcf5c0-e9c4-4cf8-a99f-a36559082303")
+	)
+	(label "fsw6"
+		(at 245.11 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "547298e9-5d4d-49b3-9993-0c0e4150d7e6")
+	)
+	(label "fsw5"
+		(at 24.13 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55c22370-4997-497f-887d-78e36a6926aa")
+	)
+	(label "fsw1"
+		(at 270.51 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5624e8c1-d9d1-4495-bb59-af1ad115ec64")
 	)
 	(label "3v3"
 		(at 165.1 60.96 0)
@@ -9554,6 +9861,16 @@
 		)
 		(uuid "568b12ef-98e6-4eeb-8882-6e820e54cbba")
 	)
+	(label "fsw2"
+		(at 48.26 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5868c3c8-37c5-4d39-8bd5-f66cd3989449")
+	)
 	(label "LED_2_G"
 		(at 134.62 120.65 180)
 		(effects
@@ -9564,6 +9881,16 @@
 		)
 		(uuid "589f6d16-8659-49e1-97ae-4f05bf1d2136")
 	)
+	(label "fsw7"
+		(at 17.78 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a5d17d0-fb7b-43d6-9a48-e008af75f8bf")
+	)
 	(label "VCC"
 		(at 60.96 154.94 0)
 		(effects
@@ -9573,6 +9900,16 @@
 			(justify left bottom)
 		)
 		(uuid "5e6ba260-ade2-448c-b949-4f424c021ca7")
+	)
+	(label "fsw1"
+		(at 24.13 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "601256a1-330d-46db-a450-557cadcc35c4")
 	)
 	(label "LED_1_R"
 		(at 132.08 107.95 180)
@@ -9604,6 +9941,36 @@
 		)
 		(uuid "6b61678a-3f6e-4cd9-8dd7-eaa6de936adc")
 	)
+	(label "fsw2"
+		(at 19.05 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "768021e1-506a-4012-94fe-a5e5dbaf1175")
+	)
+	(label "fsw5"
+		(at 48.26 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84b9c65e-91ce-4930-adb1-d4384a807450")
+	)
+	(label "fsw9"
+		(at 24.13 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9468fd9c-0b16-4491-a731-cdbcb4ece243")
+	)
 	(label "LED_1_R"
 		(at 212.09 121.92 180)
 		(effects
@@ -9613,6 +9980,16 @@
 			(justify right bottom)
 		)
 		(uuid "95d9deb9-ad72-445c-8476-91303da46ded")
+	)
+	(label "fsw7"
+		(at 24.13 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a0bddcd-17ad-4384-8ac1-33f49c524bd8")
 	)
 	(label "Left in"
 		(at 120.65 82.55 180)
@@ -9633,6 +10010,16 @@
 			(justify right bottom)
 		)
 		(uuid "a677d6a6-5fe0-433e-8a20-19be5092cc1b")
+	)
+	(label "fsw7"
+		(at 34.29 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aac52da1-8be3-40c4-92c9-b95fe5e68605")
 	)
 	(label "ENC_CLICK"
 		(at 199.39 90.17 0)
@@ -9714,6 +10101,26 @@
 		)
 		(uuid "d01e7112-4196-4231-ba9b-87831f301382")
 	)
+	(label "fsw4"
+		(at 48.26 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e93fac46-38db-4456-908f-28533811913b")
+	)
+	(label "fsw8"
+		(at 48.26 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea0b8b2e-3974-4413-ae35-99b202e8e5c7")
+	)
 	(label "ENC_A"
 		(at 133.35 123.19 180)
 		(effects
@@ -9734,6 +10141,99 @@
 		)
 		(uuid "faf7febb-a057-4137-9b69-3034153581c5")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 53.34 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "025d68b9-2a53-47f0-ab11-e729c366c02f")
+		(property "Netclass" "Power"
+			(at 54.0385 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 111.76 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1794e9c6-e5bc-4812-9db0-51ebabe366e8")
+		(property "Netclass" "Power"
+			(at 112.4585 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 27.94 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff72b56c-51de-468d-810e-857d659353a6")
+		(property "Netclass" "Power"
+			(at 28.6385 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -168.91 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_name "GND_15")
 		(lib_id "power:GND")
@@ -9745,7 +10245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02a80d91-8fe5-4889-a7e1-3f3ed1e1da14")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR024"
 			(at 203.2 85.09 0)
 			(effects
 				(font
@@ -9795,7 +10295,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR032")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9810,7 +10310,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "060bf435-26ef-4cb3-b314-07de2fcc725d")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 215.265 124.841 90)
 			(effects
 				(font
@@ -9826,7 +10326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 216.154 125.984 90)
 			(effects
 				(font
@@ -9862,7 +10362,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9877,7 +10377,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08d2ab11-ee40-4384-87bf-fe99ecc5b9ec")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 215.138 145.415 90)
 			(effects
 				(font
@@ -9893,7 +10393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 216.154 146.304 90)
 			(effects
 				(font
@@ -9929,73 +10429,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 247.65 95.25 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "08e7e80c-cae2-4935-8796-73e7ecc0628b")
-		(property "Reference" "J8"
-			(at 245.11 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "fsw pin 4"
-			(at 245.11 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 247.65 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5731618-4ac8-45a4-8a1c-15ea79eb707c")
-		)
-		(instances
-			(project "125b"
-				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "J8")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -10011,7 +10445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d1575d3-348a-4e84-9574-21c21c36de11")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 224.79 113.665 0)
 			(effects
 				(font
@@ -10027,7 +10461,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB"
+		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Wide_Pins"
 			(at 224.79 128.27 0)
 			(effects
 				(font
@@ -10069,7 +10503,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -10085,7 +10519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d676a03-14e0-4bd7-970f-0c8d46f5c5a4")
-		(property "Reference" "R16"
+		(property "Reference" "R18"
 			(at 248.92 26.67 90)
 			(effects
 				(font
@@ -10101,7 +10535,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 249.174 32.004 90)
 			(effects
 				(font
@@ -10137,7 +10571,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "R16")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -10154,7 +10588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e47503b-52ae-4ed3-aff8-81121f14565e")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR015"
 			(at 109.22 154.94 0)
 			(effects
 				(font
@@ -10204,7 +10638,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR013")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -10220,7 +10654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13e874b7-eb82-4971-bbb6-0917f394165a")
-		(property "Reference" "SW3"
+		(property "Reference" "SW2"
 			(at 59.69 116.205 0)
 			(effects
 				(font
@@ -10236,7 +10670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm"
+		(property "Footprint" "Project:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm"
 			(at 63.5 129.794 0)
 			(effects
 				(font
@@ -10281,7 +10715,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "SW3")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -10297,7 +10731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14242c0b-0142-4287-915e-13f6879baef9")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 77.47 39.37 0)
 			(effects
 				(font
@@ -10315,7 +10749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 75.946 40.894 90)
 			(effects
 				(font
@@ -10351,7 +10785,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -10382,7 +10816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 204.47 29.5148 0)
 			(effects
 				(font
@@ -10433,7 +10867,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17746029-43c5-4b4c-99a4-ffaf8933b94f")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 215.138 130.175 90)
 			(effects
 				(font
@@ -10449,7 +10883,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 216.154 131.064 90)
 			(effects
 				(font
@@ -10485,7 +10919,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -10502,7 +10936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17fd530c-917a-4a95-8a37-4ea52175645b")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 120.65 196.85 0)
 			(effects
 				(font
@@ -10552,73 +10986,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 49.53 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1dda3dac-595e-4a20-99ac-7216e6581f47")
-		(property "Reference" "J5"
-			(at 51.435 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "fsw pin 5"
-			(at 48.895 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 49.53 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 49.53 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "318a9868-aea9-4c1c-a6ec-b60ebadb60d2")
-		)
-		(instances
-			(project "podal_1590b"
-				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "J5")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10635,7 +11003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f66a4b9-39ae-4c50-be44-d3922cf73131")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR017"
 			(at 121.92 34.29 0)
 			(effects
 				(font
@@ -10685,7 +11053,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR029")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10702,7 +11070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "231a2e48-5aee-41d4-9096-d9e39f298a91")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR026"
 			(at 214.63 46.99 0)
 			(effects
 				(font
@@ -10752,7 +11120,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR024")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -10768,7 +11136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "250137be-020c-4e57-b89f-f55c26e85237")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 140.97 34.036 0)
 			(effects
 				(font
@@ -10784,7 +11152,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 139.7 41.91 0)
 			(effects
 				(font
@@ -10856,7 +11224,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "U1")
+					(reference "U2")
 					(unit 4)
 				)
 			)
@@ -10872,7 +11240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25cf6d28-836d-45c3-a435-732dbdf27fd7")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR012"
 			(at 93.98 146.05 0)
 			(effects
 				(font
@@ -10922,7 +11290,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR010")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10939,7 +11307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25eeb860-a41e-4495-9a5d-e365e593a13a")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR04"
 			(at 55.88 69.85 0)
 			(effects
 				(font
@@ -10989,7 +11357,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR02")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -11005,7 +11373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "266131e6-21f0-47e7-98a5-6d2d621daa42")
-		(property "Reference" "R5"
+		(property "Reference" "R16"
 			(at 220.98 55.88 0)
 			(effects
 				(font
@@ -11023,7 +11391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 219.456 57.404 90)
 			(effects
 				(font
@@ -11059,7 +11427,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "R5")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -11093,7 +11461,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 105.7148 171.45 0)
 			(effects
 				(font
@@ -11145,7 +11513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c3c5b08-3e02-4788-8012-64f355ecd8a8")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 77.47 58.42 0)
 			(effects
 				(font
@@ -11163,7 +11531,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 75.946 59.944 90)
 			(effects
 				(font
@@ -11199,7 +11567,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -11215,7 +11583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c85e647-ade2-4cf5-acb0-c8ebc3217392")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 121.793 175.26 0)
 			(effects
 				(font
@@ -11233,7 +11601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 121.92 173.99 0)
 			(effects
 				(font
@@ -11305,7 +11673,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "U1")
+					(reference "U2")
 					(unit 5)
 				)
 			)
@@ -11322,7 +11690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dcab7f2-d0f8-4596-8f09-4f1c4e5a3ad2")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR010"
 			(at 82.55 132.08 0)
 			(effects
 				(font
@@ -11372,7 +11740,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR016")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -11389,7 +11757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e090e2d-e6fa-4abf-aa41-8d2f00ca2875")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 73.66 196.85 0)
 			(effects
 				(font
@@ -11439,7 +11807,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -11473,7 +11841,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "Project:Potentiometer_Alps_RK09K_Single_Vertical"
 			(at 100.33 95.25 0)
 			(effects
 				(font
@@ -11528,7 +11896,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36d545bd-b068-4431-8fa9-61cb693a80e3")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 133.35 196.85 0)
 			(effects
 				(font
@@ -11578,73 +11946,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 270.51 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "36eab4db-202d-43a4-8f5a-52ab33d5d8af")
-		(property "Reference" "J9"
-			(at 273.05 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "fsw pin 1"
-			(at 265.43 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 270.51 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 270.51 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 270.51 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31ddaa84-f60b-4b3e-b926-a99b6557f9f8")
-		)
-		(instances
-			(project "podal_1590b"
-				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "J9")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -11659,7 +11961,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ec0298d-0210-4419-94f2-0f37c95391ec")
-		(property "Reference" "SW2"
+		(property "Reference" "SW4"
 			(at 107.061 145.669 0)
 			(effects
 				(font
@@ -11675,7 +11977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x02_P4mm_D0.5mm_OD1.5mm"
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm"
 			(at 114.3 153.67 0)
 			(effects
 				(font
@@ -11717,7 +12019,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "SW2")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -11733,7 +12035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "436ec739-caa7-4154-8fb5-2d67e4563319")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 232.41 22.606 0)
 			(effects
 				(font
@@ -11749,7 +12051,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 231.14 30.48 0)
 			(effects
 				(font
@@ -11821,7 +12123,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "U1")
+					(reference "U2")
 					(unit 2)
 				)
 			)
@@ -11838,7 +12140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43a51073-8768-4dc6-8742-d6b4091827d7")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR014"
 			(at 106.68 196.85 0)
 			(effects
 				(font
@@ -11888,7 +12190,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR012")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -11905,7 +12207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43f33861-ce16-4d74-b0cc-1e22108893d9")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR07"
 			(at 74.93 34.29 0)
 			(effects
 				(font
@@ -11955,73 +12257,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 267.97 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4490c7c4-3052-4915-8593-5e0c20c71035")
-		(property "Reference" "J7"
-			(at 270.51 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "fsw pin 3"
-			(at 262.89 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 267.97 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 267.97 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05da6005-2787-41ad-9088-3a023180fdc3")
-		)
-		(instances
-			(project "125b"
-				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "J7")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -12038,7 +12274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "525a059d-6e59-4937-a326-27a5e4adedb0")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 44.45 196.85 0)
 			(effects
 				(font
@@ -12088,7 +12324,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -12102,9 +12338,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5440ed0a-bb41-4e94-b6cb-2ac2e8ec67ae")
-		(property "Reference" "J11"
+		(property "Reference" "J4"
 			(at 275.59 97.7899 0)
 			(effects
 				(font
@@ -12113,8 +12348,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "NRJ6HF"
-			(at 275.59 100.3299 0)
+		(property "Value" "Guitar out"
+			(at 274.32 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12122,7 +12357,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NRJ6HF_Horizontal"
+		(property "Footprint" "Project:Jack_6.35mm_Neutrik_NRJ6HF-1-AU_Horizontal"
 			(at 267.97 100.33 0)
 			(effects
 				(font
@@ -12170,7 +12405,7 @@
 		(instances
 			(project ""
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "J11")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -12186,7 +12421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59260de1-67fe-4552-a2ec-d6e207229db8")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR019"
 			(at 133.35 161.29 0)
 			(effects
 				(font
@@ -12236,7 +12471,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -12252,7 +12487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59d383eb-96f9-4787-aaf7-a35c88c15acd")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 224.79 139.065 0)
 			(effects
 				(font
@@ -12268,7 +12503,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB"
+		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Wide_Pins"
 			(at 224.79 153.67 0)
 			(effects
 				(font
@@ -12310,7 +12545,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -12326,7 +12561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b31414c-894c-4ed8-bf75-6fb785cc31f6")
-		(property "Reference" "R6"
+		(property "Reference" "R17"
 			(at 220.98 69.85 0)
 			(effects
 				(font
@@ -12344,7 +12579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 219.456 71.374 90)
 			(effects
 				(font
@@ -12380,7 +12615,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "R6")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -12466,7 +12701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "619e4f16-2663-4642-835d-24cbb7f228be")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 90.17 154.94 0)
 			(effects
 				(font
@@ -12482,7 +12717,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:TO-92_Inline_Wide_78L05_dc"
+		(property "Footprint" "Project:TO-92_Inline_Wide_78L05_dc"
 			(at 90.17 155.575 0)
 			(effects
 				(font
@@ -12522,7 +12757,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -12539,7 +12774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62c95dc4-59ec-49a6-a96d-c69ded51afe2")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 60.96 196.85 0)
 			(effects
 				(font
@@ -12589,7 +12824,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -12623,7 +12858,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 132.3848 171.45 0)
 			(effects
 				(font
@@ -12675,7 +12910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66ef6bf1-c148-47a3-8427-b56222309a53")
-		(property "Reference" "C7"
+		(property "Reference" "C10"
 			(at 209.55 57.15 90)
 			(effects
 				(font
@@ -12691,7 +12926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 213.36 63.8048 0)
 			(effects
 				(font
@@ -12727,7 +12962,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "C7")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -12742,7 +12977,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6799ca2e-979b-4076-8eb5-0ff2676bf91e")
-		(property "Reference" "J10"
+		(property "Reference" "J2"
 			(at 32.385 173.99 0)
 			(effects
 				(font
@@ -12796,7 +13031,7 @@
 		(instances
 			(project ""
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "J10")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -12812,7 +13047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "696540d0-beaa-4637-8c10-33b1453a64ba")
-		(property "Reference" "C3"
+		(property "Reference" "C2"
 			(at 64.77 173.99 0)
 			(effects
 				(font
@@ -12830,7 +13065,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 59.9948 171.45 0)
 			(effects
 				(font
@@ -12866,7 +13101,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -12881,7 +13116,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "700d78cf-5069-40cd-bd8b-255a588f7178")
-		(property "Reference" "R22"
+		(property "Reference" "R7"
 			(at 198.12 58.42 90)
 			(effects
 				(font
@@ -12897,7 +13132,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 198.374 63.754 90)
 			(effects
 				(font
@@ -12933,7 +13168,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "R22")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -12949,7 +13184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d974223-ffed-47c7-b3e8-5717cb48f090")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 93.98 43.942 0)
 			(effects
 				(font
@@ -12965,7 +13200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 92.71 50.8 0)
 			(effects
 				(font
@@ -13037,7 +13272,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -13052,7 +13287,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e448723-4af5-4341-a53a-ccdd37838ca3")
-		(property "Reference" "R17"
+		(property "Reference" "R20"
 			(at 256.54 73.406 0)
 			(effects
 				(font
@@ -13070,7 +13305,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 262.636 75.184 90)
 			(effects
 				(font
@@ -13106,7 +13341,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "R17")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -13122,7 +13357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f666ff8-36b8-4c2e-9cdc-07e24a0fb539")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 217.17 21.59 0)
 			(effects
 				(font
@@ -13140,7 +13375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 215.646 23.114 90)
 			(effects
 				(font
@@ -13176,7 +13411,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -13193,7 +13428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fa00d51-8786-4876-b425-d51633cc1592")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR028"
 			(at 218.44 81.28 0)
 			(effects
 				(font
@@ -13243,7 +13478,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR022")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -13260,7 +13495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83d4aec9-6572-4b2c-b459-6a8026541f63")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR013"
 			(at 100.33 81.28 0)
 			(effects
 				(font
@@ -13311,7 +13546,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -13345,7 +13580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:Electrosmith_Daisy_Seed"
+		(property "Footprint" "Project:Electrosmith_Daisy_Seed"
 			(at 181.61 140.97 0)
 			(effects
 				(font
@@ -13512,7 +13747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8807c460-c85b-4034-866f-20b598914291")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR018"
 			(at 121.92 60.96 0)
 			(effects
 				(font
@@ -13562,7 +13797,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR030")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -13578,7 +13813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88d101b3-c54c-4198-bad7-e6dcec8ab895")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 58.42 58.42 0)
 			(effects
 				(font
@@ -13596,7 +13831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 56.896 59.944 90)
 			(effects
 				(font
@@ -13632,41 +13867,40 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 39.37 26.67 0)
+		(lib_id "Connector_Generic_MountingPin:Conn_02x05_Odd_Even_MountingPin")
+		(at 35.56 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8b254f06-96cb-4677-81de-9a08f29c0cb5")
-		(property "Reference" "J2"
-			(at 41.91 25.4 0)
+		(fields_autoplaced yes)
+		(uuid "8ad9225b-b107-410b-b0ce-8329365220a1")
+		(property "Reference" "J3"
+			(at 36.83 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "fsw pin 7"
-			(at 34.29 29.21 0)
+		(property "Value" "Conn_02x05_Odd_Even_MountingPin"
+			(at 36.83 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 39.37 26.67 0)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
+			(at 35.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13675,7 +13909,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 26.67 0)
+			(at 35.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13683,8 +13917,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 39.37 26.67 0)
+		(property "Description" "Generic connectable mounting pin connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 35.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13693,12 +13927,42 @@
 			)
 		)
 		(pin "1"
-			(uuid "c256a67e-fc2c-42e2-b145-1164c7c422c2")
+			(uuid "2d19b01b-97bd-480c-9e1b-0b7e96987728")
+		)
+		(pin "3"
+			(uuid "695a0e10-2e3c-4044-9549-4b1c28645608")
+		)
+		(pin "5"
+			(uuid "158ca4f7-ecac-4e0c-b74f-273c77e15dd2")
+		)
+		(pin "7"
+			(uuid "3b4882ba-d8b9-442d-a465-b54e82381d20")
+		)
+		(pin "9"
+			(uuid "8a0e0f61-d679-46b9-8929-c63f48b124b9")
+		)
+		(pin "MP"
+			(uuid "f7666b16-269a-416f-b0de-b98067f9e69f")
+		)
+		(pin "2"
+			(uuid "c9ab5eb9-b766-4460-a0b4-14f3cab8664a")
+		)
+		(pin "4"
+			(uuid "c5e48c82-d35b-49c8-94a4-e6b2f9c6f22c")
+		)
+		(pin "6"
+			(uuid "eea55736-00ab-414e-87fc-6347f82a5978")
+		)
+		(pin "8"
+			(uuid "132e0856-8f5d-451b-8a57-3087c16e4354")
+		)
+		(pin "10"
+			(uuid "db71a5d3-4261-4624-8956-de3b7fa3d3d7")
 		)
 		(instances
-			(project "podal_1590b"
+			(project ""
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -13714,7 +13978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c0317fc-ad26-4dee-b329-613434062d1f")
-		(property "Reference" "R20"
+		(property "Reference" "R5"
 			(at 124.46 49.53 0)
 			(effects
 				(font
@@ -13732,7 +13996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 122.936 51.054 90)
 			(effects
 				(font
@@ -13768,7 +14032,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "R20")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -13785,7 +14049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d05bc98-3194-4ab6-983c-00cf5eda91fb")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR023"
 			(at 193.04 49.53 0)
 			(effects
 				(font
@@ -13835,7 +14099,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR031")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -13852,7 +14116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d84bffe-bda2-4b4f-b339-7f50ad0edfae")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 81.28 95.25 0)
 			(effects
 				(font
@@ -13903,150 +14167,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 22.86 153.67 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9212e5b8-58f9-4f46-89ec-6b9e51ac9386")
-		(property "Reference" "D1"
-			(at 24.4475 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 24.4475 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
-			(at 22.86 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 22.86 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 22.86 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 22.86 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b4f7ffc-a7cd-4534-b4ae-fbabf6da5f88")
-		)
-		(pin "2"
-			(uuid "000694f4-0178-43f2-9018-c4bf54500707")
-		)
-		(instances
-			(project "podal_1590b"
-				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 21.59 52.07 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "92b90ece-dee9-4430-b516-e74a0ce76680")
-		(property "Reference" "J4"
-			(at 19.05 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "fsw pin 7"
-			(at 22.86 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 21.59 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 21.59 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 21.59 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f89f041-5d95-4a84-a2e7-c412fa919599")
-		)
-		(instances
-			(project "podal_1590b"
-				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "J4")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -14062,7 +14183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96d4ea43-49bb-46ae-890e-51cd1c9209c0")
-		(property "Reference" "SW1"
+		(property "Reference" "SW3"
 			(at 101.6 125.73 0)
 			(effects
 				(font
@@ -14078,7 +14199,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x02_P4mm_D0.5mm_OD1.5mm"
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm"
 			(at 101.6 142.24 0)
 			(effects
 				(font
@@ -14120,7 +14241,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "SW1")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -14203,7 +14324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b8cbf5a-d639-4547-9962-6b92e6aaa034")
-		(property "Reference" "R18"
+		(property "Reference" "R21"
 			(at 266.7 39.37 0)
 			(effects
 				(font
@@ -14221,7 +14342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 265.176 40.894 90)
 			(effects
 				(font
@@ -14257,7 +14378,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "R18")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -14274,7 +14395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f2efe46-9ced-4a9c-b68d-a0e05cb31ee7")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 90.17 195.58 0)
 			(effects
 				(font
@@ -14324,7 +14445,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -14340,7 +14461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad847f8b-47ca-49bf-befa-6c3e904e4f12")
-		(property "Reference" "C10"
+		(property "Reference" "C12"
 			(at 257.81 25.4 90)
 			(effects
 				(font
@@ -14356,7 +14477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 261.62 32.0548 0)
 			(effects
 				(font
@@ -14392,7 +14513,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "C10")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -14408,7 +14529,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b57c894a-683c-4223-aca1-d07f97e9fe21")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR031"
 			(at 264.16 50.8 0)
 			(effects
 				(font
@@ -14458,7 +14579,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR028")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -14473,7 +14594,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5e55cd4-6a2b-476b-8814-a6e490637770")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 215.138 150.495 90)
 			(effects
 				(font
@@ -14489,7 +14610,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 216.154 151.384 90)
 			(effects
 				(font
@@ -14525,7 +14646,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -14541,7 +14662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b67a8baa-db9b-45c8-ac90-1baa6f15cda1")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 233.68 57.277 0)
 			(effects
 				(font
@@ -14557,7 +14678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 232.41 64.77 0)
 			(effects
 				(font
@@ -14629,7 +14750,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "U1")
+					(reference "U2")
 					(unit 3)
 				)
 			)
@@ -14663,7 +14784,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 72.6948 171.45 0)
 			(effects
 				(font
@@ -14715,7 +14836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b966ea87-f3c6-4090-9ece-979ec6966094")
-		(property "Reference" "C12"
+		(property "Reference" "C9"
 			(at 207.01 73.66 0)
 			(effects
 				(font
@@ -14733,7 +14854,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 202.2348 71.12 0)
 			(effects
 				(font
@@ -14769,7 +14890,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "C12")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -14784,7 +14905,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bfc07ca6-4d36-4174-a952-085629355d5b")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 215.138 155.575 90)
 			(effects
 				(font
@@ -14800,7 +14921,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 216.154 156.464 90)
 			(effects
 				(font
@@ -14836,7 +14957,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -14852,7 +14973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c043e123-bb7f-414d-9320-94497f207599")
-		(property "Reference" "C9"
+		(property "Reference" "C11"
 			(at 256.54 59.69 90)
 			(effects
 				(font
@@ -14868,7 +14989,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 260.35 66.3448 0)
 			(effects
 				(font
@@ -14904,7 +15025,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "C9")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -14921,7 +15042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0ce8ea7-4c98-4dc8-8ea3-f6f4cd9ca433")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 160.02 158.75 0)
 			(effects
 				(font
@@ -14971,7 +15092,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR019")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -15003,7 +15124,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NRJ6HF-1-AU_Horizontal"
+		(property "Footprint" "Project:Jack_6.35mm_Neutrik_NRJ6HF-1-AU_Horizontal"
 			(at 22.86 26.67 0)
 			(effects
 				(font
@@ -15046,72 +15167,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 247.65 100.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c2850d54-9db5-4eac-b916-0708403a6361")
-		(property "Reference" "J6"
-			(at 245.11 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "fsw pin 6"
-			(at 245.11 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 247.65 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89e5afc9-3b2b-4646-9bf9-74066d3bfa77")
-		)
-		(instances
-			(project "podal_1590b"
-				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 193.04 39.37 180)
 		(unit 1)
@@ -15120,7 +15175,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c834dd7e-7872-4a68-a245-0686c8945822")
-		(property "Reference" "C11"
+		(property "Reference" "C7"
 			(at 195.58 38.1 0)
 			(effects
 				(font
@@ -15138,7 +15193,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 192.0748 35.56 0)
 			(effects
 				(font
@@ -15174,7 +15229,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "C11")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -15191,7 +15246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9846038-1785-4647-8376-269eacefbb6d")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR08"
 			(at 74.93 69.85 0)
 			(effects
 				(font
@@ -15241,73 +15296,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 31.75 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca5b8dbe-934b-45ba-81cf-211f6b6a95ac")
-		(property "Reference" "J3"
-			(at 34.29 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "fsw pin 2"
-			(at 26.67 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 31.75 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 31.75 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8020aa54-8120-4077-829d-9edfd2700b69")
-		)
-		(instances
-			(project "podal_1590b"
-				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "J3")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -15324,7 +15313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cadc4423-5dda-48ce-afe7-d4d05f9c39d6")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 165.1 158.75 0)
 			(effects
 				(font
@@ -15374,77 +15363,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 19.05 157.48 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cbbedbbe-5581-41a1-9851-202f8dd94322")
-		(property "Reference" "R1"
-			(at 20.955 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 20.955 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 18.034 157.226 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 19.05 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 19.05 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22cbd6a6-6bfc-48cb-9297-292b3f2b1898")
-		)
-		(pin "2"
-			(uuid "fadb1477-235e-4b4f-b814-dd13163a3d78")
-		)
-		(instances
-			(project "podal_1590b"
-				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "R1")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -15478,7 +15397,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "Project:Potentiometer_Alps_RK09K_Single_Vertical"
 			(at 81.28 110.49 0)
 			(effects
 				(font
@@ -15533,7 +15452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdf142ae-8cdb-4290-8181-0a7ed964252e")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR027"
 			(at 218.44 57.15 0)
 			(effects
 				(font
@@ -15583,7 +15502,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR021")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -15599,7 +15518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7a9aa38-95c1-4d38-a5be-0b234b68f0d6")
-		(property "Reference" "C2"
+		(property "Reference" "C3"
 			(at 62.23 43.18 90)
 			(effects
 				(font
@@ -15615,7 +15534,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 66.04 49.8348 0)
 			(effects
 				(font
@@ -15651,7 +15570,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -15667,7 +15586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc124ba2-05ea-4018-a581-b26e873a2691")
-		(property "Reference" "R15"
+		(property "Reference" "R19"
 			(at 248.92 60.96 90)
 			(effects
 				(font
@@ -15683,7 +15602,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 249.174 66.294 90)
 			(effects
 				(font
@@ -15719,7 +15638,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "R15")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -15734,7 +15653,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de00ce3e-eba9-49c4-bc25-9816eb85eb6c")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 214.757 119.888 90)
 			(effects
 				(font
@@ -15750,7 +15669,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 216.154 120.904 90)
 			(effects
 				(font
@@ -15786,7 +15705,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -15803,7 +15722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de217874-1be8-44aa-be74-4440347ae709")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR03"
 			(at 52.07 137.16 0)
 			(effects
 				(font
@@ -15853,7 +15772,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR014")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -15869,7 +15788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2533196-cf0a-4527-873e-7e9f23ed0b81")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 217.17 35.56 0)
 			(effects
 				(font
@@ -15887,7 +15806,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 215.646 37.084 90)
 			(effects
 				(font
@@ -15923,7 +15842,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -15940,7 +15859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f296b86d-b9d2-4932-88b3-fbd9ba5ccff0")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR030"
 			(at 262.89 118.11 0)
 			(effects
 				(font
@@ -15990,7 +15909,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR026")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -16006,7 +15925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f48f0053-4641-4dfc-8635-abfcc1c69758")
-		(property "Reference" "SW4"
+		(property "Reference" "SW1"
 			(at 34.29 43.18 0)
 			(effects
 				(font
@@ -16064,7 +15983,7 @@
 		(instances
 			(project ""
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "SW4")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -16081,7 +16000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f66dffd3-4c7d-4cff-bdfc-051ede273324")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR029"
 			(at 261.62 85.09 0)
 			(effects
 				(font
@@ -16131,7 +16050,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR025")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -16146,7 +16065,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8f19f8c-7205-4ea1-9234-caa502369941")
-		(property "Reference" "R21"
+		(property "Reference" "R6"
 			(at 185.42 24.13 90)
 			(effects
 				(font
@@ -16162,7 +16081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 185.674 29.464 90)
 			(effects
 				(font
@@ -16198,7 +16117,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "R21")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -16214,7 +16133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa8b3c6a-8076-4b59-9ee6-cd119623cafc")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 39.6875 154.94 0)
 			(effects
 				(font
@@ -16266,7 +16185,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -16283,7 +16202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc69ac1b-551f-4bbd-b585-fb3cb39d1fa3")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 214.63 22.86 0)
 			(effects
 				(font
@@ -16333,7 +16252,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -16349,7 +16268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "feba2b4c-28fa-46df-a4b5-d1beb5ea201b")
-		(property "Reference" "R19"
+		(property "Reference" "R4"
 			(at 124.46 33.02 0)
 			(effects
 				(font
@@ -16367,7 +16286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 122.936 34.544 90)
 			(effects
 				(font
@@ -16403,7 +16322,7 @@
 		(instances
 			(project "podal_1590b"
 				(path "/12e895f7-e5ae-4934-aed6-e6e04c63dd03"
-					(reference "R19")
+					(reference "R4")
 					(unit 1)
 				)
 			)
