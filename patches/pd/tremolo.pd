@@ -6,7 +6,7 @@
 #X obj 190 364 *~;
 #X obj 766 74 r Encoder @hv_param;
 #X msg 808 104 1;
-#X obj 619 353 vsl 17 128 0 1 0 0 empty empty empty 0 -9 0 10 #e4e4e4 #4d4d4d #373737 0 1;
+#X obj 619 366 vsl 17 128 0 1 0 0 empty empty empty 0 -9 0 10 #e4e4e4 #4d4d4d #373737 0 1;
 #X obj 206 34 vsl 17 128 0 16 0 0 empty empty empty 0 -9 0 10 #e4e4e4 #4d4d4d #373737 0 1;
 #X obj 750 195 +;
 #X obj 656 53 loadbang;
@@ -67,6 +67,7 @@
 #X connect 25 0 2 1;
 #X connect 25 0 30 1;
 #X connect 26 0 0 0;
+#X connect 26 0 0 1;
 #X connect 27 0 29 0;
 #X connect 28 0 27 1;
 #X connect 29 0 31 0;
